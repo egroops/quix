@@ -1,0 +1,1384 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Codash - Bootstrap 5 Coworking Space Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="App and Saas Landing Template">
+        <meta name="keywords" content="Application, Clean, Saas, Dashboard, Bootstrap4">
+        <meta content="Shreethemes" name="author">
+        <!-- favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <!-- Bootstrap css -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <!-- Icons -->
+        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css">
+        <!-- Slider -->
+        <link href="css/tiny-slider.css" rel="stylesheet">
+        <!-- Lightbox -->
+        <link href="css/tobii.min.css" rel="stylesheet" type="text/css">
+        <!-- Choice css -->
+        <link rel="stylesheet" href="css/choices.min.css">
+        <!-- Main css File -->
+        <link href="css/style.min.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <!-- Loader Start -->
+        <div id="preloader">
+            <div id="status">
+                <div class="logo">
+                    <img
+                        src="images/loader-logo.png"
+                        height="100"
+                        class="d-block mx-auto"
+                        alt=""
+                    >
+                </div>
+            </div>
+        </div>
+        <!-- Loader End -->
+        <!-- Navbar STart -->
+        <header id="topnav" class="defaultscroll sticky">
+            <div class="container">
+               <!-- Logo container-->
+               <a class="logo" href="index.html">
+                <img src="images/logo.png" height="24" alt="">
+            </a>
+            <!-- End Logo container-->
+            <div class="menu-extras">
+                <div class="menu-item">
+                    <!-- Mobile menu toggle-->
+                    <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                        <div class="lines">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                    <!-- End mobile menu toggle-->
+                </div>
+            </div>
+
+            <div class="buy-button">
+                <a href="javascript:void(0)" class="text-dark scroll-down" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="uil uil-user"></i></a>
+            </div><!--end login button-->
+    
+            <div id="navigation">
+                <!-- Navigation Menu-->   
+                <ul class="navigation-menu nav-right">
+                    <li class="has-submenu parent-menu-item">
+                        <a href="javascript:void(0)" class="sub-menu-item">Home</a><span class="menu-arrow"></span>
+                        <ul class="submenu">
+                            <li><a href="index.html" class="sub-menu-item">Home One</a></li>
+                            <li><a href="index-two.html" class="sub-menu-item">Home Two</a></li>
+                            <li><a href="index-three.html" class="sub-menu-item">Home Three</a></li>
+                            <li><a href="index-four.html" class="sub-menu-item">Home Four</a></li>
+                            <li><a href="index-five.html" class="sub-menu-item">Home Five</a></li>
+                            <li><a href="index-six.html" class="sub-menu-item">Home Six</a></li>
+                            <li><a href="index-seven.html" class="sub-menu-item">Home Seven</a></li>
+                            <li><a href="index-eight.html" class="sub-menu-item">Home Eight<span class="badge bg-danger">New</span></a></li>
+                            <li><a href="index-nine.html" class="sub-menu-item">Home nine <span class="badge bg-danger">New</span></a></li>
+                            <li><a href="index-ten.html" class="sub-menu-item">Home ten <span class="badge bg-danger">New</span></a></li>
+                        </ul>
+                        </li>
+                        <li class="has-submenu parent-parent-menu-item">
+                            <a href="javascript:void(0)" class="sub-menu-item">Pages</a>
+                            <span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="page-about.html" class="sub-menu-item">About us</a>
+                                </li>
+                                <li>
+                                    <a href="page-services.html" class="sub-menu-item">Services</a>
+                                </li>
+                                <li>
+                                    <a href="page-pricing.html" class="sub-menu-item">Pricing</a>
+                                </li>
+                                <li>
+                                    <a href="page-benefits.html" class="sub-menu-item">Benefits</a>
+                                </li>
+                                <li>
+                                    <a href="page-team.html" class="sub-menu-item">Team</a>
+                                </li>
+                                <li>
+                                    <a href="page-faqs.html" class="sub-menu-item">FAQs</a>
+                                </li>
+                                <li>
+                                    <a href="page-terms.html" class="sub-menu-item">Terms Policy</a>
+                                </li>
+                                <li class="has-submenu parent-menu-item">
+                                    <a href="javascript:void(0)" class="sub-menu-item">Blog</a>
+                                    <span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="page-blog.html" class="sub-menu-item">Blog</a>
+                                        </li>
+                                        <li>
+                                            <a href="page-blog-sidebar.html" class="sub-menu-item">Blog - Sidebar</a>
+                                        </li>
+                                        <li>
+                                            <a href="page-blog-detail.html" class="sub-menu-item">Single Blog</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="has-submenu parent-menu-item">
+                                    <a href="javascript:void(0)" class="sub-menu-item">Auth Pages</a>
+                                    <span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="page-login.html" class="sub-menu-item">Login</a>
+                                        </li>
+                                        <li>
+                                            <a href="page-signup.html" class="sub-menu-item">Signup</a>
+                                        </li>
+                                        <li>
+                                            <a href="page-reset-password.html" class="sub-menu-item">Reset Password</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="404.html" class="sub-menu-item">404</a>
+                                </li>
+                                <li>
+                                    <a href="page-blank.html" class="sub-menu-item">Blank Page</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-submenu parent-menu-item">
+                            <a href="javascript:void(0)" class="sub-menu-item">Spaces</a>
+                            <span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="page-spaces.html" class="sub-menu-item">All Spaces</a>
+                                </li>
+                                <li>
+                                    <a href="page-spaces-sidebar.html" class="sub-menu-item">Spaces - Sidebar</a>
+                                </li>
+                                <li>
+                                    <a href="page-space-detail.html" class="sub-menu-item">Space Detail</a>
+                                </li>
+                                <li>
+                                    <a href="page-all-cities.html" class="sub-menu-item">All Cities</a>
+                                </li>
+                                <li>
+                                    <a href="page-cities-sidebar.html" class="sub-menu-item">Cities - Sidebar</a>
+                                </li>
+                                <li>
+                                    <a href="page-cities-detail.html" class="sub-menu-item">Cities Detail</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-submenu parent-menu-item">
+                            <a href="javascript:void(0)" class="sub-menu-item">Events</a>
+                            <span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="event-over.html" class="sub-menu-item">Overview</a>
+                                </li>
+                                <li>
+                                    <a href="event-list.html" class="sub-menu-item">Event List</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="page-contact.html" class="sub-menu-item">Contact</a>
+                        </li>
+                    </ul>
+                    <!--end navigation menu-->
+                </div>
+                <!--end navigation-->
+            </div>
+            <!--end container-->
+        </header>
+        <!--end header-->
+        <!-- Navbar End -->
+
+        <!-- Hero Start -->
+        <section class=" d-table w-100 border-bottom border-3 " id="signup"  style="background:linear-gradient(to bottom , #b7c4cf38 -21%, #91a4b6a6 42%); padding-top: 150px; padding-bottom: 15px; clip-path: polygon(0 0, 100% 0, 322% 83%, 0% 100%);">
+            <div class="container">
+                <div class="row align-items-center gy-5 gy-lg-0">
+                    
+                    <div class="col-12 ">                                                
+                        <h1 class="fw-medium display-4 text-dark-emphasis text-center">The <span class="text-primary-emphasis display-3 fst-normal fw-medium">Future of Work</span> Is Here.</h1>
+                        
+                        <p class="mt-3 text-black-50 text-center fw-bold">Codash offer a wealth of advantages for self starters, <br> including networking opportunities, daily structure, and increased productivity</p>
+
+                        <div class="mt-2 pt-2 text-center">
+                            <button href="#signup" class="btn btn-primary scroll-down mt-2 shadow-lg fw-medium">Book Now</button>
+                        </div>
+                    </div>
+                     <div class="col-12 text-center">
+                <div class="" style="margin-top: 40px;">
+                    <img src="images/home/home-9.png" class="img-fluid mt-3" alt="work-image">
+                </div>
+    
+                </div>                                      
+                </div>                
+            </div>                             
+        </section>
+        
+        <!--end section-->
+        <!-- Hero End -->
+        <!-- Start About -->
+        <section class="section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h4 class="title mb-4">Story About Codash</h4>
+                            <p class="text-muted para-desc mx-auto">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                            <p class="text-muted mb-0">Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts. If the distribution of letters and 'words' is random, the reader will not be distracted from making a neutral judgement on the visual impact and readability of the typefaces (typography), or the distribution of text on the page (layout or type area).</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                                <div class="card feature explore-feature border-0 rounded shadow text-center bg-white">
+                                    <div class="card-body py-5">
+                                        <div class="icon rounded-circle shadow d-inline-block">
+                                            <i data-feather="wifi" class="fea"></i>
+                                        </div>
+                                        <div class="content mt-3">
+                                            <h5>
+                                                <a href="javascript:void(0)" class="title text-dark">Free Internet</a>
+                                            </h5>
+                                            <a href="javascript:void(0)" class="text-muted small">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end col-->
+                            <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                                <div class="card feature explore-feature border-0 rounded shadow text-center bg-white">
+                                    <div class="card-body py-5">
+                                        <div class="icon rounded-circle shadow d-inline-block">
+                                            <i data-feather="clock" class="fea"></i>
+                                        </div>
+                                        <div class="content mt-3">
+                                            <h5>
+                                                <a href="javascript:void(0)" class="title text-dark">24hr Access</a>
+                                            </h5>
+                                            <a href="javascript:void(0)" class="text-muted small">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end col-->
+                            <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                                <div class="card feature explore-feature border-0 rounded shadow text-center bg-white">
+                                    <div class="card-body py-5">
+                                        <div class="icon rounded-circle shadow d-inline-block">
+                                            <i data-feather="printer" class="fea"></i>
+                                        </div>
+                                        <div class="content mt-3">
+                                            <h5>
+                                                <a href="javascript:void(0)" class="title text-dark">Printer & Fax</a>
+                                            </h5>
+                                            <a href="javascript:void(0)" class="text-muted small">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end col-->
+                            <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                                <div class="card feature explore-feature border-0 rounded shadow text-center bg-white">
+                                    <div class="card-body py-5">
+                                        <div class="icon rounded-circle shadow d-inline-block">
+                                            <i data-feather="user" class="fea"></i>
+                                        </div>
+                                        <div class="content mt-3">
+                                            <h5>
+                                                <a href="javascript:void(0)" class="title text-dark">Good Coworker</a>
+                                            </h5>
+                                            <a href="javascript:void(0)" class="text-muted small">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end col-->
+                        </div>
+                        <!--end row-->
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+            <div class="container mt-100 mt-60">
+                <div class="rounded-md shadow py-5 px-4 position-relative overflow-hidden" style="background: url('images/cta-new2.jpg')center center; background-size: cover;">
+                    <div class="bg-overlay"></div>
+                    <div class="row justify-content-center py-md-5 my-lg-5">
+                        <div class="col-12 text-center">
+                            <div class="section-title">
+                                <h2 class="title-dark text-white mb-4">
+                                    Check this video presentation
+                                    <br>
+                                    to know more about Codash
+                                </h2>
+                                <p class="text-light para-desc mx-auto">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                                <a href="http://vimeo.com/287684225" class="play-btn border border-light mt-4 video-play-icon">
+                                    <i data-feather="play" class="fea icon-ex-md text-white title-dark"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row-->
+                </div>
+            </div>
+            <!--end container-->
+            <!-- Start Price -->
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="section-title mb-4 pb-2">
+                            <h4 class="title mb-4">Best Price</h4>
+                            <p class="text-muted mb-0 para-desc mx-auto">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                        <div class="pricing text-center rounded overflow-hidden shadow">
+                            <div class="price-header bg-dark pt-5 pb-5">
+                                <h5 class="price-title text-white">Private office</h5>
+                                <p class="mb-0 text-white-50">Suitable for Private office</p>
+                            </div>
+                            <div class="d-flex justify-content-center bg-light border-bottom py-4">
+                                <span class="h6 mb-0">$</span>
+                                <span class="price h4 mb-0 ms-1">0.00</span>
+                                <span class="h6 align-self-end mb-1">/mo</span>
+                            </div>
+                            <div class="pricing-features text-start">
+                                <ul class="feature list-unstyled py-4 p-3 mb-0">
+                                    <li class="feature-list text-muted">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Full Access
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Enhanced Security
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Source Files
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        1 Domain Free
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Free Appointments
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Free Installment
+                                    </li>
+                                </ul>
+                                <div class="border-top text-center py-4">
+                                    <a href="javascript:void(0)" class="btn btn-dark">Free Signup</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end price three-->
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                        <div class="pricing text-center rounded overflow-hidden shadow">
+                            <div class="price-header bg-dark pt-5 pb-5">
+                                <h5 class="price-title text-white">Event Room</h5>
+                                <p class="mb-0 text-white-50">Suitable for Event Room</p>
+                            </div>
+                            <div class="d-flex justify-content-center bg-light border-bottom py-4">
+                                <span class="h6 mb-0">$</span>
+                                <span class="price h4 mb-0 ms-1">9.99</span>
+                                <span class="h6 align-self-end mb-1">/mo</span>
+                            </div>
+                            <div class="pricing-features text-start">
+                                <ul class="feature list-unstyled py-4 p-3 mb-0">
+                                    <li class="feature-list text-muted">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Full Access
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Enhanced Security
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Source Files
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        1 Domain Free
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Free Appointments
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Free Installment
+                                    </li>
+                                </ul>
+                                <div class="border-top text-center py-4">
+                                    <a href="javascript:void(0)" class="btn btn-dark">Subscribe Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end price three-->
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                        <div class="pricing text-center rounded overflow-hidden shadow-md bg-light">
+                            <div class="price-header bg-primary pt-5 pb-5">
+                                <h5 class="price-title text-white">Small office</h5>
+                                <p class="mb-0 text-light">Suitable for Small office</p>
+                            </div>
+                            <div class="d-flex justify-content-center bg-light border-bottom py-5">
+                                <span class="h6 mb-0">$</span>
+                                <span class="price h4 mb-0 ms-1">19.99</span>
+                                <span class="h6 align-self-end mb-1">/mo</span>
+                            </div>
+                            <div class="pricing-features text-start">
+                                <ul class="feature list-unstyled py-4 p-3 mb-0">
+                                    <li class="feature-list text-muted">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-primary me-2"></i>
+                                        Full Access
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-primary me-2"></i>
+                                        Enhanced Security
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-primary me-2"></i>
+                                        Source Files
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-primary me-2"></i>
+                                        1 Domain Free
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-primary me-2"></i>
+                                        Free Appointments
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-primary me-2"></i>
+                                        Free Installment
+                                    </li>
+                                </ul>
+                                <div class="border-top text-center py-5">
+                                    <a href="javascript:void(0)" class="btn btn-primary">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end price three-->
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                        <div class="pricing text-center rounded overflow-hidden shadow">
+                            <div class="price-header bg-dark pt-5 pb-5">
+                                <h5 class="price-title text-white">Meeting Room</h5>
+                                <p class="mb-0 text-white-50">Suitable for Meeting Room</p>
+                            </div>
+                            <div class="d-flex justify-content-center bg-light border-bottom py-4">
+                                <span class="h6 mb-0">$</span>
+                                <span class="price h4 mb-0 ms-1">29.99</span>
+                                <span class="h6 align-self-end mb-1">/mo</span>
+                            </div>
+                            <div class="pricing-features text-start">
+                                <ul class="feature list-unstyled py-4 p-3 mb-0">
+                                    <li class="feature-list text-muted">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Full Access
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Enhanced Security
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Source Files
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        1 Domain Free
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Free Appointments
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Free Installment
+                                    </li>
+                                </ul>
+                                <div class="border-top text-center py-4">
+                                    <a href="javascript:void(0)" class="btn btn-dark">Buy Premium</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end price three-->
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+            <!-- End Price -->
+        </section>
+        <!--end section-->
+        <!-- End About -->
+        <!-- Start -->
+        <section class="section bg-light">
+            <!-- Start Spaces -->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="section-title mb-4 pb-2">
+                            <h4 class="title mb-4">Our Spaces</h4>
+                            <p class="text-muted mb-0 para-desc mx-auto">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+                <div class="row">
+                    <div class="col-12 mt-4 pt-2">
+                        <div class="filters-group-wrap text-center">
+                            <div class="filters-group">
+                                <ul class="container-filter mb-0 categories-filter list-unstyled filter-options">
+                                    <li class="list-inline-item categories position-relative rounded border active" data-group="all">All</li>
+                                    <li class="list-inline-item categories position-relative rounded border" data-group="individual">Individual</li>
+                                    <li class="list-inline-item categories position-relative rounded border" data-group="private">Private</li>
+                                    <li class="list-inline-item categories position-relative rounded border" data-group="dedicated">Dedicated</li>
+                                    <li class="list-inline-item categories position-relative rounded border" data-group="company">Company</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+                <div id="grid" class="row g-3 mt-4">
+                    <div class="col-lg-4 col-md-6 col-12 picture-item" data-groups='["individual"]'>
+                        <div class="card work-container work-modern position-relative overflow-hidden shadow rounded-md border-0">
+                            <div class="card-body p-0">
+                                <img src="images/work/7.jpg" class="img-fluid rounded-md" alt="work-image">
+                                <div class="overlay-work bg-dark"></div>
+                                <div class="content">
+                                    <a href="javascript:void(0)" class="text-white d-block h6 mb-0">Individual Seat</a>
+                                    <small class="text-light">Co-space</small>
+                                </div>
+                                <div class="icons text-center">
+                                    <a href="images/work/7.jpg" class="text-primary work-icon bg-white d-inline-block rounded-pill mfp-image">
+                                        <i data-feather="camera" class="fea icon-sm"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-4 col-md-6 col-12 picture-item" data-groups='["private"]'>
+                        <div class="card work-container work-modern position-relative overflow-hidden shadow rounded-md border-0">
+                            <div class="card-body p-0">
+                                <img src="images/work/8.jpg" class="img-fluid rounded-md" alt="work-image">
+                                <div class="overlay-work bg-dark"></div>
+                                <div class="content">
+                                    <a href="javascript:void(0)" class="text-white d-block h6 mb-0">Private Office</a>
+                                    <small class="text-light">Co-space</small>
+                                </div>
+                                <div class="icons text-center">
+                                    <a href="images/work/8.jpg" class="text-primary work-icon bg-white d-inline-block rounded-pill mfp-image">
+                                        <i data-feather="camera" class="fea icon-sm"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-4 col-md-6 col-12 picture-item" data-groups='["dedicated"]'>
+                        <div class="card work-container work-modern position-relative overflow-hidden shadow rounded-md border-0">
+                            <div class="card-body p-0">
+                                <img src="images/work/9.jpg" class="img-fluid rounded-md" alt="work-image">
+                                <div class="overlay-work bg-dark"></div>
+                                <div class="content">
+                                    <a href="javascript:void(0)" class="text-white d-block h6 mb-0">Dedicated Space</a>
+                                    <small class="text-light">Co-space</small>
+                                </div>
+                                <div class="icons text-center">
+                                    <a href="images/work/9.jpg" class="text-primary work-icon bg-white d-inline-block rounded-pill mfp-image">
+                                        <i data-feather="camera" class="fea icon-sm"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-4 col-md-6 col-12 picture-item" data-groups='["individual"]'>
+                        <div class="card work-container work-modern position-relative overflow-hidden shadow rounded-md border-0">
+                            <div class="card-body p-0">
+                                <img src="images/work/10.jpg" class="img-fluid rounded-md" alt="work-image">
+                                <div class="overlay-work bg-dark"></div>
+                                <div class="content">
+                                    <a href="javascript:void(0)" class="text-white d-block h6 mb-0">Individual Seat</a>
+                                    <small class="text-light">Co-space</small>
+                                </div>
+                                <div class="icons text-center">
+                                    <a href="images/work/10.jpg" class="text-primary work-icon bg-white d-inline-block rounded-pill mfp-image">
+                                        <i data-feather="camera" class="fea icon-sm"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-4 col-md-6 col-12 picture-item" data-groups='["dedicated"]'>
+                        <div class="card work-container work-modern position-relative overflow-hidden shadow rounded-md border-0">
+                            <div class="card-body p-0">
+                                <img src="images/work/11.jpg" class="img-fluid rounded-md" alt="work-image">
+                                <div class="overlay-work bg-dark"></div>
+                                <div class="content">
+                                    <a href="javascript:void(0)" class="text-white d-block h6 mb-0">Dedicated Space</a>
+                                    <small class="text-light">Co-space</small>
+                                </div>
+                                <div class="icons text-center">
+                                    <a href="images/work/11.jpg" class="text-primary work-icon bg-white d-inline-block rounded-pill mfp-image">
+                                        <i data-feather="camera" class="fea icon-sm"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-4 col-md-6 col-12 picture-item" data-groups='["company"]'>
+                        <div class="card work-container work-modern position-relative overflow-hidden shadow rounded-md border-0">
+                            <div class="card-body p-0">
+                                <img src="images/work/12.jpg" class="img-fluid rounded-md" alt="work-image">
+                                <div class="overlay-work bg-dark"></div>
+                                <div class="content">
+                                    <a href="javascript:void(0)" class="text-white d-block h6 mb-0">Copmany Space</a>
+                                    <small class="text-light">Co-space</small>
+                                </div>
+                                <div class="icons text-center">
+                                    <a href="images/work/12.jpg" class="text-primary work-icon bg-white d-inline-block rounded-pill mfp-image">
+                                        <i data-feather="camera" class="fea icon-sm"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+            <!-- End space -->
+            <!-- Start Testi -->
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h4 class="title mb-4">Here from our members</h4>
+                            <p class="text-muted mb-0 para-desc mx-auto">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+                <div class="row">
+                    <div class="col-12 mt-4 pt-2">
+                        <div class="tiny-three-item">
+                            <div class="tiny-slide">
+                                <div class="customer-testi m-1">
+                                    <div class="content p-3 shadow rounded bg-white position-relative">
+                                        <ul class="list-unstyled mb-0 text-warning">
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
+                                    </div>
+                                    <div class="d-flex mt-3 align-items-center">
+                                        <img src="images/client/01.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
+                                        <p class="text-primary mb-0">
+                                            - Calvin Carlo
+                                            <small class="text-muted d-block ms-2">Manager</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tiny-slide">
+                                <div class="customer-testi m-1">
+                                    <div class="content p-3 shadow rounded bg-white position-relative">
+                                        <ul class="list-unstyled mb-0 text-warning">
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
+                                    </div>
+                                    <div class="d-flex mt-3 align-items-center">
+                                        <img src="images/client/02.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
+                                        <p class="text-primary mb-0">
+                                            - Christa Smith
+                                            <small class="text-muted d-block ms-2">Manager</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tiny-slide">
+                                <div class="customer-testi m-1">
+                                    <div class="content p-3 shadow rounded bg-white position-relative">
+                                        <ul class="list-unstyled mb-0 text-warning">
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
+                                    </div>
+                                    <div class="d-flex mt-3 align-items-center">
+                                        <img src="images/client/03.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
+                                        <p class="text-primary mb-0">
+                                            - Jemina CLone
+                                            <small class="text-muted d-block ms-2">Manager</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tiny-slide">
+                                <div class="customer-testi m-1">
+                                    <div class="content p-3 shadow rounded bg-white position-relative">
+                                        <ul class="list-unstyled mb-0 text-warning">
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
+                                    </div>
+                                    <div class="d-flex mt-3 align-items-center">
+                                        <img src="images/client/04.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
+                                        <p class="text-primary mb-0">
+                                            - Smith Vodka
+                                            <small class="text-muted d-block ms-2">Manager</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tiny-slide">
+                                <div class="customer-testi m-1">
+                                    <div class="content p-3 shadow rounded bg-white position-relative">
+                                        <ul class="list-unstyled mb-0 text-warning">
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
+                                    </div>
+                                    <div class="d-flex mt-3 align-items-center">
+                                        <img src="images/client/05.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
+                                        <p class="text-primary mb-0">
+                                            - Cristino Murfi
+                                            <small class="text-muted d-block ms-2">Manager</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+            <!-- End Testi -->
+            <!-- Faq Start -->
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h4 class="title mb-4">Frequently asked questions</h4>
+                            <p class="text-muted mb-0 para-desc mx-auto">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <img src="images/illu/office-bro.svg" class="img-fluid" alt="">
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-6">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item rounded">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button
+                                        class="accordion-button border-0 bg-light"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne"
+                                        aria-expanded="true"
+                                        aria-controls="collapseOne"
+                                    >
+                                        Can I come take a tour anytime?
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseOne"
+                                    class="accordion-collapse border-0 collapse show"
+                                    aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample"
+                                >
+                                    <div class="accordion-body text-muted bg-white">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item rounded mt-2">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button
+                                        class="accordion-button border-0 bg-light collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo"
+                                        aria-expanded="false"
+                                        aria-controls="collapseTwo"
+                                    >
+                                        Do you have student or small company discounts?
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseTwo"
+                                    class="accordion-collapse border-0 collapse"
+                                    aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample"
+                                >
+                                    <div class="accordion-body text-muted bg-white">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item rounded mt-2">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button
+                                        class="accordion-button border-0 bg-light collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree"
+                                        aria-expanded="false"
+                                        aria-controls="collapseThree"
+                                    >
+                                        Can I cancel anytime or is there a lock-in period?
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseThree"
+                                    class="accordion-collapse border-0 collapse"
+                                    aria-labelledby="headingThree"
+                                    data-bs-parent="#accordionExample"
+                                >
+                                    <div class="accordion-body text-muted bg-white">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item rounded mt-2">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button
+                                        class="accordion-button border-0 bg-light collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour"
+                                        aria-expanded="false"
+                                        aria-controls="collapseFour"
+                                    >
+                                        What is the difference between your room types?
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseFour"
+                                    class="accordion-collapse border-0 collapse"
+                                    aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample"
+                                >
+                                    <div class="accordion-body text-muted bg-white">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item rounded mt-2">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button
+                                        class="accordion-button border-0 bg-light collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive"
+                                        aria-expanded="false"
+                                        aria-controls="collapseFive"
+                                    >
+                                        Is the laundry facility free?
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseFive"
+                                    class="accordion-collapse border-0 collapse"
+                                    aria-labelledby="headingFive"
+                                    data-bs-parent="#accordionExample"
+                                >
+                                    <div class="accordion-body text-muted bg-white">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item rounded mt-2">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button
+                                        class="accordion-button border-0 bg-light collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix"
+                                        aria-expanded="false"
+                                        aria-controls="collapseSix"
+                                    >
+                                        How are you handling safety of the offices?
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseSix"
+                                    class="accordion-collapse border-0 collapse"
+                                    aria-labelledby="headingSix"
+                                    data-bs-parent="#accordionExample"
+                                >
+                                    <div class="accordion-body text-muted bg-white">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end accordion-->
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+            <!-- Faq End -->
+        </section>
+        <!--end section-->
+        <!-- End -->
+        <!-- Start Blog -->
+        <section class="section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h4 class="title mb-4">News & Events</h4>
+                            <p class="text-muted mb-0 para-desc mx-auto">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card blog border-0 shadow rounded overflow-hidden">
+                            <div class="image position-relative overflow-hidden">
+                                <img src="images/work/7.jpg" class="img-fluid" alt="">
+                                <div class="blog-tag">
+                                    <a href="javascript:void(0)" class="badge bg-light text-dark">Cospace</a>
+                                </div>
+                            </div>
+                            <div class="card-body content">
+                                <a href="blog-detail-five.html" class="h5 title text-dark mb-0">Tips for higher productivity</a>
+                                <p class="text-muted mt-2 mb-2">The most well-known dummy text is the 'Lorem Ipsum', in the 16th century.</p>
+                                <a href="blog-detail-five.html" class="link text-dark">
+                                    Read More
+                                    <i class="uil uil-arrow-right align-middle"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card blog border-0 shadow rounded overflow-hidden">
+                            <div class="image position-relative overflow-hidden">
+                                <img src="images/work/8.jpg" class="img-fluid" alt="">
+                                <div class="blog-tag">
+                                    <a href="javascript:void(0)" class="badge bg-light text-dark">Cospace</a>
+                                </div>
+                            </div>
+                            <div class="card-body content">
+                                <a href="blog-detail-five.html" class="h5 title text-dark mb-0">Green work environment</a>
+                                <p class="text-muted mt-2 mb-2">The most well-known dummy text is the 'Lorem Ipsum', in the 16th century.</p>
+                                <a href="blog-detail-five.html" class="link text-dark">
+                                    Read More
+                                    <i class="uil uil-arrow-right align-middle"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card blog border-0 shadow rounded overflow-hidden">
+                            <div class="image position-relative overflow-hidden">
+                                <img src="images/work/9.jpg" class="img-fluid" alt="">
+                                <div class="blog-tag">
+                                    <a href="javascript:void(0)" class="badge bg-light text-dark">Cospace</a>
+                                </div>
+                            </div>
+                            <div class="card-body content">
+                                <a href="blog-detail-five.html" class="h5 title text-dark mb-0">Importance of social interactions</a>
+                                <p class="text-muted mt-2 mb-2">The most well-known dummy text is the 'Lorem Ipsum', in the 16th century.</p>
+                                <a href="blog-detail-five.html" class="link text-dark">
+                                    Read More
+                                    <i class="uil uil-arrow-right align-middle"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+        </section>
+        <!--end section-->
+        <!-- End Blog -->
+        <!-- Footer Start -->
+        <footer class="bg-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-py-100">
+                            <div class="row">
+                                <div class="col-lg-5 col-12 mb-lg-0 mb-md-4 pb-lg-0 pb-md-2">
+                                    <a href="#" class="logo-footer text-white">
+                                        <img
+                                            src="images/logo-light.png"
+                                            class="l-light"
+                                            height="24"
+                                            alt=""
+                                        >
+                                    </a>
+                                    <p class="text-foot mt-4">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                                    <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0)" class="rounded">
+                                                <i data-feather="facebook" class="fea icon-sm fea-social"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0)" class="rounded">
+                                                <i data-feather="instagram" class="fea icon-sm fea-social"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0)" class="rounded">
+                                                <i data-feather="twitter" class="fea icon-sm fea-social"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0)" class="rounded">
+                                                <i data-feather="linkedin" class="fea icon-sm fea-social"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <!--end icon-->
+                                </div>
+                                <!--end col-->
+                                <div class="col-lg-7 col-12">
+                                    <div class="row">
+                                        <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                                            <h5 class="text-light footer-head">Company</h5>
+                                            <ul class="list-unstyled footer-list mt-4">
+                                                <li>
+                                                    <a href="javascript:void(0)" class="text-foot">
+                                                        <i class="mdi mdi-chevron-right me-1"></i>
+                                                        About us
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)" class="text-foot">
+                                                        <i class="mdi mdi-chevron-right me-1"></i>
+                                                        Services
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)" class="text-foot">
+                                                        <i class="mdi mdi-chevron-right me-1"></i>
+                                                        Pricing
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)" class="text-foot">
+                                                        <i class="mdi mdi-chevron-right me-1"></i>
+                                                        Project
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)" class="text-foot">
+                                                        <i class="mdi mdi-chevron-right me-1"></i>
+                                                        Blog
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!--end col-->
+                                        <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                                            <h5 class="text-light footer-head">Support</h5>
+                                            <ul class="list-unstyled footer-list mt-4">
+                                                <li>
+                                                    <a href="javascript:void(0)" class="text-foot">
+                                                        <i class="mdi mdi-chevron-right me-1"></i>
+                                                        Help Desk
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)" class="text-foot">
+                                                        <i class="mdi mdi-chevron-right me-1"></i>
+                                                        Live Chat
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)" class="text-foot">
+                                                        <i class="mdi mdi-chevron-right me-1"></i>
+                                                        Knowledge
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)" class="text-foot">
+                                                        <i class="mdi mdi-chevron-right me-1"></i>
+                                                        Messaging
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!--end col-->
+                                        <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                                            <h5 class="text-light footer-head">Contacts</h5>
+                                            <ul class="list-unstyled footer-list mt-4">
+                                                <li>
+                                                    <i data-feather="map-pin" class="fea icon-sm text-foot me-2"></i>
+                                                    <a href="#" class="text-foot">Londan, England</a>
+                                                </li>
+                                                <li>
+                                                    <i data-feather="mail" class="fea icon-sm text-foot me-2"></i>
+                                                    <a href="mailto:contact@example.com" class="text-foot">test@domain.com</a>
+                                                </li>
+                                                <li>
+                                                    <i data-feather="phone" class="fea icon-sm text-foot me-2"></i>
+                                                    <a href="tel:+152534-468-854" class="text-foot">+(12) 1254-5487</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!--end col-->
+                                    </div>
+                                    <!--end row-->
+                                </div>
+                                <!--end col-->
+                            </div>
+                            <!--end row-->
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+            <div class="footer-py-30 footer-border-top">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 text-center">
+                            <p class="mb-0 text-foot">
+                                <script>document.write(new Date().getFullYear())</script>
+                                © Codash. Design with
+                                <i class="mdi mdi-heart text-danger"></i>
+                                by
+                                <a href="https://shreethemes.in/" target="_blank" class="text-reset">Shreethemes</a>
+                                .
+                            </p>
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+            </div>
+        </footer>
+        <!--end footer-->
+        <!-- Footer End -->
+        <!-- Login Modal start -->
+        <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header p-4">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Login Now</h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body p-4">
+                        <form class="login-form">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label class="form-label">
+                                            Your Email
+                                            <span class="text-danger">*</span>
+                                        </label>
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            name="email"
+                                            required=""
+                                            placeholder="Your Email :"
+                                        >
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label class="form-label">
+                                            Password
+                                            <span class="text-danger">*</span>
+                                        </label>
+                                        <input
+                                            type="password"
+                                            class="form-control"
+                                            required=""
+                                            placeholder="Password :"
+                                        >
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input
+                                            class="form-check-input"
+                                            type="checkbox"
+                                            value=""
+                                            id="flexCheckDefault"
+                                        >
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Remember Me
+                                        </label>
+                                    </div>
+                                    <p class="forgot-pass mb-0">
+                                        <a href="page-reset-password.html" class="text-dark fw-bold">Forgot password ?</a>
+                                    </p>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100">Create Account</button>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <p class="mb-0 mt-3">
+                                        <small class="text-dark me-2">Already have an account ?</small>
+                                        <a href="page-login.html" class="text-dark fw-bold">Sign in</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end modal-->
+        <!-- Login Modal end -->
+        <!-- Back to top -->
+        <a
+            href="#"
+            class="btn btn-icon btn-primary back-to-top"
+            onclick="topFunction()"
+            id="back-to-top"
+        >
+            <i data-feather="arrow-up" class="icons"></i>
+        </a>
+        <!-- Back to top -->
+        <!-- javascript -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- SLIDER -->
+        <script src="js/tiny-slider.js "></script>
+        <!-- Choice js -->
+        <script src="js/choices.min.js"></script>
+        <!-- lightbox -->
+        <script src="js/shuffle.min.js"></script>
+        <script src="js/tobii.min.js"></script>
+        <!-- Icon -->
+        <script src="js/feather.min.js"></script>
+        <!-- Main Js -->
+        <script src="js/plugins.init.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
+
+

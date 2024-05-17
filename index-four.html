@@ -1,0 +1,1021 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Codash - Bootstrap 5 Coworking Space Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="App and Saas Landing Template" />
+        <meta name="keywords" content="Application, Clean, Saas, Dashboard, Bootstrap4" />
+        <meta content="Shreethemes" name="author" />
+        <!-- favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <!-- Bootstrap css -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- Icons -->
+        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css">
+        <!-- Animation -->
+        <link href="css/animate.css" rel="stylesheet" />
+        <link href="css/animations-delay.css" rel="stylesheet" />
+        <!-- Lightbox -->
+        <link href="css/tobii.min.css" rel="stylesheet" type="text/css" />
+        <!-- Main css File -->
+        <link href="css/style.min.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <!-- Loader Start -->
+        <div id="preloader">
+            <div id="status">
+                <div class="logo">
+                    <img src="images/loader-logo.png" height="100" class="d-block mx-auto" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Loader End -->
+
+        <!-- Navbar STart -->
+        <header id="topnav" class="defaultscroll sticky">
+            <div class="container">
+                <!-- Logo container-->
+                <a class="logo" href="index.html">
+                    <img src="images/logo.png" class="l-dark" height="24" alt="">
+                    <img src="images/logo-light.png" class="l-light" height="24" alt="">
+                </a>
+                <!-- End Logo container-->
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                </div>
+
+                <div class="buy-button">
+                    <a href="javascript:void(0)" class="text-white login scroll-down" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="uil uil-user"></i></a>
+                </div><!--end login button-->
+        
+                <div id="navigation">
+                    <!-- Navigation Menu-->   
+                    <ul class="navigation-menu nav-light nav-right">
+                        <li class="has-submenu parent-menu-item">
+                            <a href="javascript:void(0)" class="sub-menu-item">Home</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="index.html" class="sub-menu-item">Home One</a></li>
+                                <li><a href="index-two.html" class="sub-menu-item">Home Two</a></li>
+                                <li><a href="index-three.html" class="sub-menu-item">Home Three</a></li>
+                                <li><a href="index-four.html" class="sub-menu-item">Home Four</a></li>
+                                <li><a href="index-five.html" class="sub-menu-item">Home Five</a></li>
+                                <li><a href="index-six.html" class="sub-menu-item">Home Six</a></li>
+                                <li><a href="index-seven.html" class="sub-menu-item">Home Seven</a></li>
+                                <li><a href="index-eight.html" class="sub-menu-item">Home Eight <span class="badge bg-danger">New</span></a></li>
+                                <li><a href="index-nine.html" class="sub-menu-item">Home Nine <span class="badge bg-danger">New</span></a></li>
+                                <li><a href="index-ten.html" class="sub-menu-item">Home Ten <span class="badge bg-danger">New</span></a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu parent-parent-menu-item">
+                            <a href="javascript:void(0)" class="sub-menu-item">Pages</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="page-about.html" class="sub-menu-item">About us</a></li>
+                                <li><a href="page-services.html" class="sub-menu-item">Services</a></li>
+                                <li><a href="page-pricing.html" class="sub-menu-item">Pricing</a></li>
+                                <li><a href="page-benefits.html" class="sub-menu-item">Benefits</a></li>
+                                <li><a href="page-team.html" class="sub-menu-item">Team</a></li>
+                                <li><a href="page-faqs.html" class="sub-menu-item">FAQs</a></li>
+                                <li><a href="page-terms.html" class="sub-menu-item">Terms Policy</a></li>
+                                <li class="has-submenu parent-menu-item">
+                                    <a href="javascript:void(0)" class="sub-menu-item">Blog</a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="page-blog.html" class="sub-menu-item">Blog</a></li>
+                                        <li><a href="page-blog-sidebar.html" class="sub-menu-item">Blog - Sidebar</a></li>
+                                        <li><a href="page-blog-detail.html" class="sub-menu-item">Single Blog</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-submenu parent-menu-item">
+                                    <a href="javascript:void(0)" class="sub-menu-item">Auth Pages</a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="page-login.html" class="sub-menu-item">Login</a></li>
+                                        <li><a href="page-signup.html" class="sub-menu-item">Signup</a></li>
+                                        <li><a href="page-reset-password.html" class="sub-menu-item">Reset Password</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="404.html" class="sub-menu-item">404</a></li>
+                                <li><a href="page-blank.html" class="sub-menu-item">Blank Page</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu parent-menu-item">
+                            <a href="javascript:void(0)" class="sub-menu-item">Spaces</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="page-spaces.html" class="sub-menu-item">All Spaces</a></li>
+                                <li><a href="page-spaces-sidebar.html" class="sub-menu-item">Spaces - Sidebar</a></li>
+                                <li><a href="page-space-detail.html" class="sub-menu-item">Space Detail</a></li>
+                                <li><a href="page-all-cities.html" class="sub-menu-item">All Cities</a></li>
+                                <li><a href="page-cities-sidebar.html" class="sub-menu-item">Cities - Sidebar</a></li>
+                                <li><a href="page-cities-detail.html" class="sub-menu-item">Cities Detail</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu parent-menu-item">
+                            <a href="javascript:void(0)" class="sub-menu-item">Events</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="event-over.html" class="sub-menu-item">Overview</a></li>
+                                <li><a href="event-list.html" class="sub-menu-item">Event List</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="page-contact.html" class="sub-menu-item">Contact</a></li>
+                    </ul><!--end navigation menu-->
+                </div><!--end navigation-->
+            </div><!--end container-->
+        </header><!--end header-->
+        <!-- Navbar End -->
+
+        <!-- Hero Start -->
+        <section class="home-slider position-relative">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <div class="bg-home d-flex align-items-center" style="background: url('images/home/bg2.jpg') center center;">
+                            <div class="bg-overlay"></div>
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-12 text-center">
+                                        <div class="title-heading mt-4">
+                                            <h1 class="display-4 fw-bold mb-3 text-white title-dark animated fadeInUpBig animation-delay-3">The Future of Work Here.</h1>
+                                            <p class="para-desc text-white-50 para-dark mx-auto animated fadeInUpBig animation-delay-7">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity</p>
+                                            <div class="mt-4 pt-2 animated fadeInUpBig animation-delay-11">
+                                                <a href="javascript:void(0)" class="btn btn-primary mt-2">Get Started</a>
+                                            </div>
+                                        </div>
+                                    </div><!--end col-->
+                                </div><!--end row-->
+                            </div><!--end container-->
+                        </div><!--end slide-->
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="bg-home d-flex align-items-center" style="background: url('images/home/bg3.jpg') center center;">
+                            <div class="bg-overlay"></div>
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-12 text-center">
+                                        <div class="title-heading mt-4">
+                                            <h1 class="display-4 fw-bold mb-3 text-white title-dark animated fadeInUpBig animation-delay-3">Business Space Rental</h1>
+                                            <p class="para-desc mx-auto text-white-50 para-dark animated fadeInUpBig animation-delay-7">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity</p>
+                                            <div class="mt-4 pt-2 animated fadeInUpBig animation-delay-11">
+                                                <a href="javascript:void(0)" class="btn btn-primary mt-2">Book Now</a>
+                                            </div>
+                                        </div>
+                                    </div><!--end col-->
+                                </div><!--end row-->
+                            </div><!--end container-->
+                        </div><!--end slide-->
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="bg-home d-flex align-items-center" style="background: url('images/home/bg4.jpg') center center;">
+                            <div class="bg-overlay"></div>
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-12 text-center">
+                                        <div class="title-heading mt-4">
+                                            <h1 class="display-4 fw-bold mb-3 text-white title-dark animated fadeInUpBig animation-delay-3">Meeting Conference Room</h1>
+                                            <p class="para-desc mx-auto text-white-50 para-dark animated fadeInUpBig animation-delay-7">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity</p>
+                                            <div class="mt-4 pt-2 animated fadeInUpBig animation-delay-11">
+                                                <a href="javascript:void(0)" class="btn btn-primary mt-2">Reserve Seat</a>
+                                            </div>
+                                        </div>
+                                    </div><!--end col-->
+                                </div><!--end row-->
+                            </div><!--end container-->
+                        </div><!--end slide-->
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </section><!--end section-->
+        <!-- Hero End -->
+
+        <!-- Shape Start -->
+        <div class="position-relative">
+            <div class="shape overflow-hidden text-light">
+                <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        <!--Shape End-->
+
+        <!-- Start -->
+        <section class="section bg-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-12">
+                        <div class="me-lg-4">
+                            <img src="images/about/1.png" class="img-fluid rounded" alt="">
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="section-title">
+                            <h4 class="title mb-4">Solutions designed for <br> you and your team</h4>
+                            <p class="text-muted para-desc mb-0">This is required when, for example, the final text is not yet available. Dummy text is also known as 'fill text'. It is said that song composers of the past used dummy texts as lyrics when writing melodies in order to have a 'ready-made' text to sing with the melody.</p>
+                            <div class="watch-video mt-4">
+                                <a href="page-about.html" class="btn btn-primary">Learn More <i data-feather="arrow-right" class="fea icon-sm"></i></a>
+                                <a href="javascript:void(0)" data-type="youtube" data-id="-rnEepQ_jpI" class="video-play-icon lightbox text-dark mb-2 ms-2"><i class="mdi mdi-play play-icon-circle text-center d-inline-block me-2 rounded-pill text-light position-relative play play-iconbar"></i> Watch now !</a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="section-title mb-4 pb-2">
+                            <h4 class="title mb-4">We’re Creative Coworking Working Space for success</h4>
+                            <p class="text-muted mb-0 para-desc mx-auto">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
+                        <div class="card feature explore-feature border-0 rounded shadow text-center bg-white">
+                            <div class="card-body py-5">
+                                <div class="icon rounded-circle shadow h3 d-inline-block">
+                                    <i class="uil uil-wifi"></i>
+                                </div>
+                                <div class="content mt-3">
+                                    <h5><a href="javascript:void(0)" class="title text-dark">Free Internet</a></h5>
+                                    <a href="javascript:void(0)" class="text-muted small">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
+                        <div class="card feature explore-feature border-0 rounded shadow text-center bg-white">
+                            <div class="card-body py-5">
+                                <div class="icon rounded-circle shadow h3 d-inline-block">
+                                    <i class="uil uil-clock"></i>
+                                </div>
+                                <div class="content mt-3">
+                                    <h5><a href="javascript:void(0)" class="title text-dark">24hr Access</a></h5>
+                                    <a href="javascript:void(0)" class="text-muted small">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
+                        <div class="card feature explore-feature border-0 rounded shadow text-center bg-white">
+                            <div class="card-body py-5">
+                                <div class="icon rounded-circle shadow h3 d-inline-block">
+                                    <i class="uil uil-print"></i>
+                                </div>
+                                <div class="content mt-3">
+                                    <h5><a href="javascript:void(0)" class="title text-dark">Printer & Fax</a></h5>
+                                    <a href="javascript:void(0)" class="text-muted small">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
+                        <div class="card feature explore-feature border-0 rounded shadow text-center bg-white">
+                            <div class="card-body py-5">
+                                <div class="icon rounded-circle shadow h3 d-inline-block">
+                                    <i class="uil uil-users-alt"></i>
+                                </div>
+                                <div class="content mt-3">
+                                    <h5><a href="javascript:void(0)" class="title text-dark">Good Coworker</a></h5>
+                                    <a href="javascript:void(0)" class="text-muted small">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
+                        <div class="card feature explore-feature border-0 rounded shadow text-center bg-white">
+                            <div class="card-body py-5">
+                                <div class="icon rounded-circle shadow h3 d-inline-block">
+                                    <i class="uil uil-pizza-slice"></i>
+                                </div>
+                                <div class="content mt-3">
+                                    <h5><a href="javascript:void(0)" class="title text-dark">Kitchen</a></h5>
+                                    <a href="javascript:void(0)" class="text-muted small">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
+                        <div class="card feature explore-feature border-0 rounded shadow text-center bg-white">
+                            <div class="card-body py-5">
+                                <div class="icon rounded-circle shadow h3 d-inline-block">
+                                    <i class="uil uil-coffee"></i>
+                                </div>
+                                <div class="content mt-3">
+                                    <h5><a href="javascript:void(0)" class="title text-dark">Tea & Coffee</a></h5>
+                                    <a href="javascript:void(0)" class="text-muted small">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
+                        <div class="card feature explore-feature border-0 rounded shadow text-center bg-white">
+                            <div class="card-body py-5">
+                                <div class="icon rounded-circle shadow h3 d-inline-block">
+                                    <i class="uil uil-lock-open-alt"></i>
+                                </div>
+                                <div class="content mt-3">
+                                    <h5><a href="javascript:void(0)" class="title text-dark">Meeting Room</a></h5>
+                                    <a href="javascript:void(0)" class="text-muted small">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
+                        <div class="card feature explore-feature border-0 rounded shadow text-center bg-white">
+                            <div class="card-body py-5">
+                                <div class="icon rounded-circle shadow h3 d-inline-block">
+                                    <i class="uil uil-airplay"></i>
+                                </div>
+                                <div class="content mt-3">
+                                    <h5><a href="javascript:void(0)" class="title text-dark">Free Public PC</a></h5>
+                                    <a href="javascript:void(0)" class="text-muted small">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+
+        <!-- Shape Start -->
+        <div class="position-relative">
+            <div class="shape overflow-hidden text-white">
+                <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        <!--Shape End-->
+
+        <!-- Start -->
+        <section class="section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="section-title mb-4 pb-2">
+                            <h4 class="title mb-4">Codash Gallery</h4>
+                            <p class="text-muted mb-0 para-desc mx-auto">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+            <div class="container-fluid mt-4 pt-2">
+                <div class="row">
+                    <div class="col-lg-2 col-md-4 col-12 px-0">
+                        <div class="card work-container work-modern position-relative overflow-hidden rounded-0 border-0">
+                            <div class="card-body p-0">
+                                <img src="images/work/15.jpg" class="img-fluid" alt="work-image">
+                                <div class="overlay-work bg-dark"></div>
+                                <div class="icons text-center">
+                                    <a href="images/work/15.jpg" class="btn btn-pills btn-icon btn-primary lightbox"><i class="uil uil-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-2 col-md-4 col-12 px-0">
+                        <div class="card work-container work-modern position-relative overflow-hidden rounded-0 border-0">
+                            <div class="card-body p-0">
+                                <img src="images/work/16.jpg" class="img-fluid" alt="work-image">
+                                <div class="overlay-work bg-dark"></div>
+                                <div class="icons text-center">
+                                    <a href="images/work/16.jpg" class="btn btn-pills btn-icon btn-primary lightbox"><i class="uil uil-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-4 col-12 px-0">
+                        <div class="card work-container work-modern position-relative overflow-hidden rounded-0 border-0">
+                            <div class="card-body p-0">
+                                <img src="images/work/17.jpg" class="img-fluid" alt="work-image">
+                                <div class="overlay-work bg-dark"></div>
+                                <div class="icons text-center">
+                                    <a href="images/work/17.jpg" class="btn btn-pills btn-icon btn-primary lightbox"><i class="uil uil-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-2 col-md-4 col-12 px-0">
+                        <div class="card work-container work-modern position-relative overflow-hidden rounded-0 border-0">
+                            <div class="card-body p-0">
+                                <img src="images/work/18.jpg" class="img-fluid" alt="work-image">
+                                <div class="overlay-work bg-dark"></div>
+                                <div class="icons text-center">
+                                    <a href="images/work/18.jpg" class="btn btn-pills btn-icon btn-primary lightbox"><i class="uil uil-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-4 col-12 px-0">
+                        <div class="card work-container work-modern position-relative overflow-hidden rounded-0 border-0">
+                            <div class="card-body p-0">
+                                <img src="images/work/19.jpg" class="img-fluid" alt="work-image">
+                                <div class="overlay-work bg-dark"></div>
+                                <div class="icons text-center">
+                                    <a href="images/work/19.jpg" class="btn btn-pills btn-icon btn-primary lightbox"><i class="uil uil-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-2 col-md-4 col-12 px-0">
+                        <div class="card work-container work-modern position-relative overflow-hidden rounded-0 border-0">
+                            <div class="card-body p-0">
+                                <img src="images/work/20.jpg" class="img-fluid" alt="work-image">
+                                <div class="overlay-work bg-dark"></div>
+                                <div class="icons text-center">
+                                    <a href="images/work/20.jpg" class="btn btn-pills btn-icon btn-primary lightbox"><i class="uil uil-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-4 col-12 px-0">
+                        <div class="card work-container work-modern position-relative overflow-hidden rounded-0 border-0">
+                            <div class="card-body p-0">
+                                <img src="images/work/21.jpg" class="img-fluid" alt="work-image">
+                                <div class="overlay-work bg-dark"></div>
+                                <div class="icons text-center">
+                                    <a href="images/work/21.jpg" class="btn btn-pills btn-icon btn-primary lightbox"><i class="uil uil-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-2 col-md-4 col-12 px-0">
+                        <div class="card work-container work-modern position-relative overflow-hidden rounded-0 border-0">
+                            <div class="card-body p-0">
+                                <img src="images/work/22.jpg" class="img-fluid" alt="work-image">
+                                <div class="overlay-work bg-dark"></div>
+                                <div class="icons text-center">
+                                    <a href="images/work/22.jpg" class="btn btn-pills btn-icon btn-primary lightbox"><i class="uil uil-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-4 col-12 px-0">
+                        <div class="card work-container work-modern position-relative overflow-hidden rounded-0 border-0">
+                            <div class="card-body p-0">
+                                <img src="images/work/23.jpg" class="img-fluid" alt="work-image">
+                                <div class="overlay-work bg-dark"></div>
+                                <div class="icons text-center">
+                                    <a href="images/work/23.jpg" class="btn btn-pills btn-icon btn-primary lightbox"><i class="uil uil-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-2 col-md-4 col-12 px-0">
+                        <div class="card work-container work-modern position-relative overflow-hidden rounded-0 border-0">
+                            <div class="card-body p-0">
+                                <img src="images/work/24.jpg" class="img-fluid" alt="work-image">
+                                <div class="overlay-work bg-dark"></div>
+                                <div class="icons text-center">
+                                    <a href="images/work/24.jpg" class="btn btn-pills btn-icon btn-primary lightbox"><i class="uil uil-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-4 col-12 px-0">
+                        <div class="card work-container work-modern position-relative overflow-hidden rounded-0 border-0">
+                            <div class="card-body p-0">
+                                <img src="images/work/25.jpg" class="img-fluid" alt="work-image">
+                                <div class="overlay-work bg-dark"></div>
+                                <div class="icons text-center">
+                                    <a href="images/work/25.jpg" class="btn btn-pills btn-icon btn-primary lightbox"><i class="uil uil-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-2 col-md-4 col-12 px-0">
+                        <div class="card work-container work-modern position-relative overflow-hidden rounded-0 border-0">
+                            <div class="card-body p-0">
+                                <img src="images/work/26.jpg" class="img-fluid" alt="work-image">
+                                <div class="overlay-work bg-dark"></div>
+                                <div class="icons text-center">
+                                    <a href="images/work/26.jpg" class="btn btn-pills btn-icon btn-primary lightbox"><i class="uil uil-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <!-- Faq Start -->
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h4 class="title mb-4">Frequently asked questions</h4>
+                            <p class="text-muted mb-0 para-desc mx-auto">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <img src="images/illu/office-bro.svg" class="img-fluid" alt="">
+                    </div><!--end col-->
+
+                    <div class="col-lg-6">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item rounded">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button border-0 bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        Can I come take a tour anytime?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse border-0 collapse show" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-muted bg-white">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item rounded mt-2">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                        aria-expanded="false" aria-controls="collapseTwo">
+                                        Do you have student or small company discounts?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse border-0 collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-muted bg-white">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item rounded mt-2">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Can I cancel anytime or is there a lock-in period?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse border-0 collapse" aria-labelledby="headingThree"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-muted bg-white">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item rounded mt-2">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        What is the difference between your room types?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse border-0 collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-muted bg-white">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item rounded mt-2">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        Is the laundry facility free?
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse border-0 collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-muted bg-white">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item rounded mt-2">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        How are you handling safety of the offices?
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse border-0 collapse" aria-labelledby="headingSix"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-muted bg-white">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--end accordion-->
+                    </div><!--end col-->
+                    <div class="col-12 mt-4 pt-2 text-center">
+                        <div class="alert alert-light alert-pills mb-0" role="alert">
+                            <a href="javascript:void(0)" class="badge badge-pill badge-primary me-2">FAQs</a>
+                            <span class="content text-muted"> Ask your questions</span>
+                         </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+            <!-- Faq End -->
+
+            <div class="container mt-100 mt-60">
+                <div class="row align-items-end mb-4 pb-4">
+                    <div class="col-md-8">
+                        <div class="section-title text-center text-md-start">
+                            <h4 class="title mb-4">We provide solutions for all your needs</h4>
+                            <p class="text-muted mb-0 para-desc">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-md-4 mt-4 mt-sm-0">
+                        <div class="text-center text-md-end">
+                            <a href="javascript:void(0)" class="text-primary">View more suggestion <i data-feather="arrow-right" class="fea icon-sm"></i></a>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row">
+                    <div class="col-md-4 mt-4 pt-2">
+                        <ul class="nav nav-pills nav-justified flex-column bg-white rounded shadow p-3 mb-0 sticky-sidebar" id="pills-tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link rounded active" id="private-office" data-bs-toggle="pill" href="#pills-private" role="tab" aria-controls="pills-private" aria-selected="false">
+                                    <div class="text-center pt-1 pb-1">
+                                        <h6 class="title fw-normal mb-0">Private Office</h6>
+                                    </div>
+                                </a><!--end nav link-->
+                            </li><!--end nav item-->
+                            
+                            <li class="nav-item mt-2">
+                                <a class="nav-link rounded" id="dedicated-office" data-bs-toggle="pill" href="#pills-dedicated" role="tab" aria-controls="pills-dedicated" aria-selected="false">
+                                    <div class="text-center pt-1 pb-1">
+                                        <h6 class="title fw-normal mb-0">Dedicated Office</h6>
+                                    </div>
+                                </a><!--end nav link-->
+                            </li><!--end nav item-->
+                            
+                            <li class="nav-item mt-2">
+                                <a class="nav-link rounded" id="kitchen-space" data-bs-toggle="pill" href="#pills-kitchen" role="tab" aria-controls="pills-kitchen" aria-selected="false">
+                                    <div class="text-center pt-1 pb-1">
+                                        <h6 class="title fw-normal mb-0">Kitchen Space</h6>
+                                    </div>
+                                </a><!--end nav link-->
+                            </li><!--end nav item-->
+                            
+                            <li class="nav-item mt-2">
+                                <a class="nav-link rounded" id="meeting-room" data-bs-toggle="pill" href="#pills-meeting" role="tab" aria-controls="pills-meeting" aria-selected="false">
+                                    <div class="text-center pt-1 pb-1">
+                                        <h6 class="title fw-normal mb-0">Meeting Rooms</h6>
+                                    </div>
+                                </a><!--end nav link-->
+                            </li><!--end nav item-->
+                        </ul><!--end nav pills-->
+                    </div><!--end col-->
+
+                    <div class="col-md-8 col-12 mt-4 pt-2">
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade bg-white show active p-4 rounded shadow" id="pills-private" role="tabpanel" aria-labelledby="private-office">
+                                <img src="images/work/7.jpg" class="img-fluid rounded shadow" alt="">
+                                <div class="mt-4">
+                                    <p class="text-muted">This is required when, for example, the final text is not yet available. Dummy text is also known as 'fill text'. It is said that song composers of the past used dummy texts as lyrics.</p>
+                                    <a href="javascript:void(0)" class="text-primary">See More <i data-feather="arrow-right" class="fea icon-sm"></i></a>
+                                </div>
+                            </div><!--end teb pane-->
+                            
+                            <div class="tab-pane fade bg-white p-4 rounded shadow" id="pills-dedicated" role="tabpanel" aria-labelledby="dedicated-office">
+                                <img src="images/work/8.jpg" class="img-fluid rounded shadow" alt="">
+                                <div class="mt-4">
+                                    <p class="text-muted">This is required when, for example, the final text is not yet available. Dummy text is also known as 'fill text'. It is said that song composers of the past used dummy texts as lyrics.</p>
+                                    <a href="javascript:void(0)" class="text-primary">See More <i data-feather="arrow-right" class="fea icon-sm"></i></a>
+                                </div>
+                            </div><!--end teb pane-->
+
+                            <div class="tab-pane fade bg-white p-4 rounded shadow" id="pills-kitchen" role="tabpanel" aria-labelledby="kitchen-space">
+                                <img src="images/work/9.jpg" class="img-fluid rounded shadow" alt="">
+                                <div class="mt-4">
+                                    <p class="text-muted">This is required when, for example, the final text is not yet available. Dummy text is also known as 'fill text'. It is said that song composers of the past used dummy texts as lyrics.</p>
+                                    <a href="javascript:void(0)" class="text-primary">See More <i data-feather="arrow-right" class="fea icon-sm"></i></a>
+                                </div>
+                            </div><!--end teb pane-->
+                            
+                            <div class="tab-pane fade bg-white p-4 rounded shadow" id="pills-meeting" role="tabpanel" aria-labelledby="meeting-room">
+                                <img src="images/work/12.jpg" class="img-fluid rounded shadow" alt="">
+                                <div class="mt-4">
+                                    <p class="text-muted">This is required when, for example, the final text is not yet available. Dummy text is also known as 'fill text'. It is said that song composers of the past used dummy texts as lyrics.</p>
+                                    <a href="javascript:void(0)" class="text-primary">See More <i data-feather="arrow-right" class="fea icon-sm"></i></a>
+                                </div>
+                            </div><!--end teb pane-->
+                        </div><!--end tab content-->
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+
+        <!-- Start -->
+        <section class="section pt-0">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="video-solution-cta position-relative" style="z-index: 1;">
+                            <div class="position-relative">
+                                <img src="images/feature-holder.jpg" class="img-fluid rounded shadow-lg" alt="">
+                                <div class="play-icon">
+                                    <a href="javascript:void(0)" data-type="youtube" data-id="-rnEepQ_jpI" class="play-btn lightbox">
+                                    <i class="mdi mdi-play text-primary rounded-circle bg-white shadow"></i>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="content mt-md-4 pt-md-2">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-10 text-center">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-6 mt-4 pt-2">
+                                                <div class="section-title text-md-start">
+                                                    <h6 class="text-white-50">Customers needs</h6>
+                                                    <h4 class="title text-white mb-0">Spaces for every size and type of need.</h4>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6 col-12 mt-4 pt-md-2">
+                                                <div class="section-title text-md-start">
+                                                    <p class="text-white-50 para-desc">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                                                    <a href="javascript:void(0)" class="text-light">Read More <i data-feather="arrow-right" class="fea icon-sm"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row -->
+                <div class="feature-posts-placeholder bg-primary"></div>
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+
+        <!-- Shape Start -->
+        <div class="position-relative">
+            <div class="shape overflow-hidden text-white">
+                <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        <!--Shape End-->
+
+        <!-- Start Blog -->
+        <section class="section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h4 class="title mb-4">News & Events</h4>
+                            <p class="text-muted mb-0 para-desc mx-auto">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card blog border-0 shadow rounded overflow-hidden">
+                            <div class="image position-relative overflow-hidden">
+                                <img src="images/work/7.jpg" class="img-fluid" alt="">
+
+                                <div class="blog-tag">
+                                    <a href="javascript:void(0)" class="badge bg-light text-dark">Cospace</a>
+                                </div>
+                            </div>
+
+                            <div class="card-body content">
+                                <a href="blog-detail-five.html" class="h5 title text-dark mb-0">Tips for higher productivity</a>
+                                <p class="text-muted mt-2 mb-2">The most well-known dummy text is the 'Lorem Ipsum', in the 16th century.</p>
+                                <a href="blog-detail-five.html" class="link text-dark">Read More <i class="uil uil-arrow-right align-middle"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card blog border-0 shadow rounded overflow-hidden">
+                            <div class="image position-relative overflow-hidden">
+                                <img src="images/work/8.jpg" class="img-fluid" alt="">
+
+                                <div class="blog-tag">
+                                    <a href="javascript:void(0)" class="badge bg-light text-dark">Cospace</a>
+                                </div>
+                            </div>
+
+                            <div class="card-body content">
+                                <a href="blog-detail-five.html" class="h5 title text-dark mb-0">Green work environment</a>
+                                <p class="text-muted mt-2 mb-2">The most well-known dummy text is the 'Lorem Ipsum', in the 16th century.</p>
+                                <a href="blog-detail-five.html" class="link text-dark">Read More <i class="uil uil-arrow-right align-middle"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card blog border-0 shadow rounded overflow-hidden">
+                            <div class="image position-relative overflow-hidden">
+                                <img src="images/work/9.jpg" class="img-fluid" alt="">
+
+                                <div class="blog-tag">
+                                    <a href="javascript:void(0)" class="badge bg-light text-dark">Cospace</a>
+                                </div>
+                            </div>
+
+                            <div class="card-body content">
+                                <a href="blog-detail-five.html" class="h5 title text-dark mb-0">Importance of social interactions</a>
+                                <p class="text-muted mt-2 mb-2">The most well-known dummy text is the 'Lorem Ipsum', in the 16th century.</p>
+                                <a href="blog-detail-five.html" class="link text-dark">Read More <i class="uil uil-arrow-right align-middle"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End Blog -->
+
+        <!-- Shape Start -->
+        <div class="position-relative">
+            <div class="shape overflow-hidden text-footer">
+                <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        <!--Shape End-->
+
+        <!-- Footer Start -->
+        <footer class="bg-footer">    
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-py-100">
+                            <div class="row">
+                                <div class="col-lg-5 col-12 mb-lg-0 mb-md-4 pb-lg-0 pb-md-2">
+                                    <a href="#" class="logo-footer text-white"><img src="images/logo-light.png" class="l-light" height="24" alt=""></a>
+                                    <p class="text-foot mt-4">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                                    <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                                    </ul><!--end icon-->
+                                </div><!--end col-->
+
+                                <div class="col-lg-7 col-12">
+                                    <div class="row">
+                                        <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                                            <h5 class="text-light footer-head">Company</h5>
+                                            <ul class="list-unstyled footer-list mt-4">
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> About us</a></li>
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Services</a></li>
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Pricing</a></li>
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Project</a></li>
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Blog</a></li>
+                                            </ul>
+                                        </div><!--end col-->
+            
+                                        <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                                            <h5 class="text-light footer-head">Support</h5>
+                                            <ul class="list-unstyled footer-list mt-4">
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Help Desk</a></li>
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Live Chat</a></li>
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Knowledge</a></li>
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Messaging</a></li>
+                                            </ul>
+                                        </div><!--end col-->
+            
+                                        <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                                            <h5 class="text-light footer-head">Contacts</h5>
+                                            <ul class="list-unstyled footer-list mt-4">
+                                                <li><i data-feather="map-pin" class="fea icon-sm text-foot me-2"></i><a href="#" class="text-foot">Londan, England</a></li>
+                                                <li><i data-feather="mail" class="fea icon-sm text-foot me-2"></i><a href="mailto:contact@example.com" class="text-foot">test@domain.com</a></li>
+                                                <li><i data-feather="phone" class="fea icon-sm text-foot me-2"></i><a href="tel:+152534-468-854" class="text-foot">+(12) 1254-5487</a></li>
+                                            </ul>
+                                        </div><!--end col-->
+                                    </div><!--end row-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="footer-py-30 footer-border-top">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 text-center">
+                            <p class="mb-0 text-foot"><script>document.write(new Date().getFullYear())</script> © Codash. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="https://shreethemes.in/" target="_blank" class="text-reset">Shreethemes</a>.</p>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div>
+        </footer><!--end footer-->
+        <!-- Footer End -->
+        
+        <!-- Login Modal start -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header p-4">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Login Now </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body p-4">
+                        <form class="login-form">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label class="form-label">Your Email <span class="text-danger">*</span></label>
+                                        <input type="email" class="form-control"  name="email" required="" placeholder="Your Email :">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label class="form-label">Password <span class="text-danger">*</span></label>
+                                        <input type="password" class="form-control"  required="" placeholder="Password :">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Remember Me
+                                            </label>
+                                        </div>
+                                        <p class="forgot-pass mb-0"><a href="page-reset-password.html" class="text-dark fw-bold">Forgot password ?</a></p>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100">Create Account</button>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <p class="mb-0 mt-3"><small class="text-dark me-2">Already have an account ?</small> <a href="page-login.html" class="text-dark fw-bold">Sign in</a></p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div><!--end modal-->
+        <!-- Login Modal end -->
+
+        <!-- Back to top -->
+        <a href="#" class="btn btn-icon btn-primary back-to-top" onclick="topFunction()" id="back-to-top"><i data-feather="arrow-up" class="icons"></i></a>
+        <!-- Back to top -->
+        
+        <!-- javascript -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- Icon -->
+        <script src="js/feather.min.js"></script>
+        <!-- lightbox -->
+        <script src="js/tobii.min.js"></script>
+        <!-- Main Js -->
+        <script src="js/plugins.init.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>

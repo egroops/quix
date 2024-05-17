@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Codash - Bootstrap 5 Coworking Space Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="App and Saas Landing Template">
+        <meta name="keywords" content="Application, Clean, Saas, Dashboard, Bootstrap4">
+        <meta content="Shreethemes" name="author">
+        <!-- favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <!-- Bootstrap css -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <!-- Icons -->
+        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css">
+        <!-- Icons -->
+        <link href="css/tobii.min.css" rel="stylesheet" type="text/css">
+        <!-- Choice css -->
+        <link rel="stylesheet" href="css/choices.min.css">
+        <!-- Slider -->
+        <link href="css/tiny-slider.css" rel="stylesheet">
+        <!-- Main css File -->
+        <link href="css/style.min.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <!-- Loader Start -->
+        <div id="preloader">
+            <div id="status">
+                <div class="logo">
+                    <img
+                        src="images/loader-logo.png"
+                        height="100"
+                        class="d-block mx-auto"
+                        alt=""
+                    >
+                </div>
+            </div>
+        </div>
+        <!-- Loader End -->
+        
+        <!-- Navbar STart -->
+        <header id="topnav" class="defaultscroll sticky">
+            <div class="container">
+                <!-- Logo container-->
+                <a class="logo" href="index.html">
+                    <img src="images/logo.png" height="24" alt="">
+                </a>
+                <!-- End Logo container-->
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                </div>
+    
+                <div class="buy-button">
+                    <a href="javascript:void(0)" class="text-dark scroll-down" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="uil uil-user"></i></a>
+                </div><!--end login button-->
+        
+                <div id="navigation">
+                    <!-- Navigation Menu-->   
+                    <ul class="navigation-menu nav-right">
+                        <li class="has-submenu parent-menu-item">
+                            <a href="javascript:void(0)" class="sub-menu-item">Home</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="index.html" class="sub-menu-item">Home One</a></li>
+                                <li><a href="index-two.html" class="sub-menu-item">Home Two</a></li>
+                                <li><a href="index-three.html" class="sub-menu-item">Home Three</a></li>
+                                <li><a href="index-four.html" class="sub-menu-item">Home Four</a></li>
+                                <li><a href="index-five.html" class="sub-menu-item">Home Five</a></li>
+                                <li><a href="index-six.html" class="sub-menu-item">Home Six</a></li>
+                                <li><a href="index-seven.html" class="sub-menu-item">Home Seven</a></li>
+                                <li><a href="index-eight.html" class="sub-menu-item">Home Eight <span class="badge bg-danger">New</span></a></li>
+                                <li><a href="index-nine.html" class="sub-menu-item">Home Nine <span class="badge bg-danger">New</span></a></li>
+                                <li><a href="index-ten.html" class="sub-menu-item">Home Ten <span class="badge bg-danger">New</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="has-submenu parent-parent-menu-item">
+                            <a href="javascript:void(0)" class="sub-menu-item">Pages</a>
+                            <span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="page-about.html" class="sub-menu-item">About us</a>
+                                </li>
+                                <li>
+                                    <a href="page-services.html" class="sub-menu-item">Services</a>
+                                </li>
+                                <li>
+                                    <a href="page-pricing.html" class="sub-menu-item">Pricing</a>
+                                </li>
+                                <li>
+                                    <a href="page-benefits.html" class="sub-menu-item">Benefits</a>
+                                </li>
+                                <li>
+                                    <a href="page-team.html" class="sub-menu-item">Team</a>
+                                </li>
+                                <li>
+                                    <a href="page-faqs.html" class="sub-menu-item">FAQs</a>
+                                </li>
+                                <li>
+                                    <a href="page-terms.html" class="sub-menu-item">Terms Policy</a>
+                                </li>
+                                <li class="has-submenu parent-menu-item">
+                                    <a href="javascript:void(0)" class="sub-menu-item">Blog</a>
+                                    <span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="page-blog.html" class="sub-menu-item">Blog</a>
+                                        </li>
+                                        <li>
+                                            <a href="page-blog-sidebar.html" class="sub-menu-item">Blog - Sidebar</a>
+                                        </li>
+                                        <li>
+                                            <a href="page-blog-detail.html" class="sub-menu-item">Single Blog</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="has-submenu parent-menu-item">
+                                    <a href="javascript:void(0)" class="sub-menu-item">Auth Pages</a>
+                                    <span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="page-login.html" class="sub-menu-item">Login</a>
+                                        </li>
+                                        <li>
+                                            <a href="page-signup.html" class="sub-menu-item">Signup</a>
+                                        </li>
+                                        <li>
+                                            <a href="page-reset-password.html" class="sub-menu-item">Reset Password</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="404.html" class="sub-menu-item">404</a>
+                                </li>
+                                <li>
+                                    <a href="page-blank.html" class="sub-menu-item">Blank Page</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-submenu parent-menu-item">
+                            <a href="javascript:void(0)" class="sub-menu-item">Spaces</a>
+                            <span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="page-spaces.html" class="sub-menu-item">All Spaces</a>
+                                </li>
+                                <li>
+                                    <a href="page-spaces-sidebar.html" class="sub-menu-item">Spaces - Sidebar</a>
+                                </li>
+                                <li>
+                                    <a href="page-space-detail.html" class="sub-menu-item">Space Detail</a>
+                                </li>
+                                <li>
+                                    <a href="page-all-cities.html" class="sub-menu-item">All Cities</a>
+                                </li>
+                                <li>
+                                    <a href="page-cities-sidebar.html" class="sub-menu-item">Cities - Sidebar</a>
+                                </li>
+                                <li>
+                                    <a href="page-cities-detail.html" class="sub-menu-item">Cities Detail</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-submenu parent-menu-item">
+                            <a href="javascript:void(0)" class="sub-menu-item">Events</a>
+                            <span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="event-over.html" class="sub-menu-item">Overview</a>
+                                </li>
+                                <li>
+                                    <a href="event-list.html" class="sub-menu-item">Event List</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="page-contact.html" class="sub-menu-item">Contact</a>
+                        </li>
+                    </ul>
+                    <!--end navigation menu-->
+                </div>
+                <!--end navigation-->
+            </div>
+            <!--end container-->
+        </header>
+        <!--end header-->
+        <!-- Navbar End -->
+        <!-- Hero Start -->
+        <section class=" d-table w-100" id="signup" style="background: linear-gradient(to top , #8f8f8fde 17%, #efe7e3 96%); padding-top: 88px; padding-bottom: 0px; " >
+            <div class="container">
+                <div class="row align-items-center gy-5 ">
+                    <div class="col-lg-5">
+                        <div>
+                            <p class="fs-6 text-primary-emphasis fw-medium">The best creative idea---</p>
+                            <h1 class="display-2 mb-5 mt-3 text-primary-emphasis">Back to the <br><span class="fw-bold">Workspace</span><br><span class="fw-bold">Smarter</span></h1>
+                            <p class="fs-5 text-dark fw-medium"> coworking spaces can make for ideal
+                            offices, espacically for small and growing business.</p>
+                        </div>
+                        <div class="mt-4 pt-2">
+                            <a href="#signup" class="btn btn-primary scroll-down mt-2 shadow-lg rounded-5">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                      
+                        <div class="col">
+                            <div class="mt-0">
+                            <img src="images/home/8.png" class="img-fluid" alt="man-work">
+                            </div>
+
+                        </div>
+                           
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--end section-->
+        <!-- Hero End -->
+        <!-- Start -->
+        <section class="section bg-light">
+            <div class="container pt-md-5">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-12">
+                        <div class="me-lg-4">
+                            <img src="images/about/1.png" class="img-fluid rounded" alt="">
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="section-title">
+                            <h4 class="title mb-4">
+                                Solutions designed for
+                                <br>
+                                you and your team
+                            </h4>
+                            <p class="text-muted para-desc mb-0">This is required when, for example, the final text is not yet available. Dummy text is also known as 'fill text'. It is said that song composers of the past used dummy texts as lyrics when writing melodies in order to have a 'ready-made' text to sing with the melody.</p>
+                            <div class="watch-video mt-4">
+                                <a href="page-about.html" class="btn btn-primary">
+                                    Learn More
+                                    <i data-feather="arrow-right" class="fea icon-sm"></i>
+                                </a>
+                                <a
+                                    href="javascript:void(0)"
+                                    data-type="youtube"
+                                    data-id="-rnEepQ_jpI"
+                                    class="video-play-icon lightbox text-dark mb-2 ms-2"
+                                >
+                                    <i class="mdi mdi-play play-icon-circle text-center d-inline-block me-2 rounded-pill text-light position-relative play play-iconbar"></i>
+                                    Watch now !
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h4 class="title mb-4">Our Services</h4>
+                            <p class="text-muted mb-0 para-desc mx-auto">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card feature border-0 bg-transparent p-4 text-center">
+                            <span class="text-primary h2">
+                                <i class="uil uil-wifi"></i>
+                            </span>
+                            <h5 class="mt-2">Free Internet</h5>
+                            <p class="text-muted mb-0">If the distribution of letters and 'words' is random, the reader will not be distracted from making.</p>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card feature border-0 bg-transparent p-4 text-center">
+                            <span class="text-primary h2">
+                                <i class="uil uil-users-alt"></i>
+                            </span>
+                            <h5 class="mt-2">Group Events</h5>
+                            <p class="text-muted mb-0">If the distribution of letters and 'words' is random, the reader will not be distracted from making.</p>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card feature border-0 bg-transparent p-4 text-center">
+                            <span class="text-primary h2">
+                                <i class="uil uil-crop-alt-rotate-left"></i>
+                            </span>
+                            <h5 class="mt-2">Meeting Room</h5>
+                            <p class="text-muted mb-0">If the distribution of letters and 'words' is random, the reader will not be distracted from making.</p>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card feature border-0 bg-transparent p-4 text-center">
+                            <span class="text-primary h2">
+                                <i class="uil uil-glass-tea"></i>
+                            </span>
+                            <h5 class="mt-2">Coffee & Tea</h5>
+                            <p class="text-muted mb-0">If the distribution of letters and 'words' is random, the reader will not be distracted from making.</p>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card feature border-0 bg-transparent p-4 text-center">
+                            <span class="text-primary h2">
+                                <i class="uil uil-parking-circle"></i>
+                            </span>
+                            <h5 class="mt-2">Free Parking</h5>
+                            <p class="text-muted mb-0">If the distribution of letters and 'words' is random, the reader will not be distracted from making.</p>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card feature border-0 bg-transparent p-4 text-center">
+                            <span class="text-primary h2">
+                                <i class="uil uil-process"></i>
+                            </span>
+                            <h5 class="mt-2">Relax Room</h5>
+                            <p class="text-muted mb-0">If the distribution of letters and 'words' is random, the reader will not be distracted from making.</p>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-12 mt-4 pt-2 text-center">
+                        <a href="javascript:void(0)" class="btn btn-primary">
+                            See More
+                            <i data-feather="arrow-right" class="fea icon-sm"></i>
+                        </a>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+        </section>
+        <!--end section-->
+        <!-- End -->
+        <!-- Start -->
+        <section class="section">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h4 class="title mb-4">We provide Different types of office</h4>
+                            <p class="text-muted mb-0 para-desc mx-auto">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+                <div class="row projects-wrapper">
+                    <div class="col-lg-2 col-md-4 col-12 mt-4 pt-2">
+                        <div class="card work-container work-modern position-relative overflow-hidden shadow rounded-md border-0">
+                            <div class="card-body p-0">
+                                <a href="javascript:void(0)">
+                                    <img src="images/work/1.jpg" class="img-fluid rounded-md" alt="work-image">
+                                    <div class="overlay-work bg-dark"></div>
+                                </a>
+                                <div class="content">
+                                    <h6 class="text-white d-block fw-bold mb-0">Private office</h6>
+                                    <small class="text-light">Co-space</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-2 col-md-4 col-12 mt-4 pt-2">
+                        <div class="card work-container work-modern position-relative overflow-hidden shadow rounded-md border-0">
+                            <div class="card-body p-0">
+                                <a href="javascript:void(0)">
+                                    <img src="images/work/2.jpg" class="img-fluid rounded-md" alt="work-image">
+                                    <div class="overlay-work bg-dark"></div>
+                                </a>
+                                <div class="content">
+                                    <h6 class="text-white d-block fw-bold mb-0">Dedicated Space</h6>
+                                    <small class="text-light">Co-space</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-2 col-md-4 col-12 mt-4 pt-2">
+                        <div class="card work-container work-modern position-relative overflow-hidden shadow rounded-md border-0">
+                            <div class="card-body p-0">
+                                <a href="javascript:void(0)">
+                                    <img src="images/work/3.jpg" class="img-fluid rounded-md" alt="work-image">
+                                    <div class="overlay-work bg-dark"></div>
+                                </a>
+                                <div class="content">
+                                    <h6 class="text-white d-block fw-bold mb-0">Small office</h6>
+                                    <small class="text-light">Co-space</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-2 col-md-4 col-12 mt-4 pt-2">
+                        <div class="card work-container work-modern position-relative overflow-hidden shadow rounded-md border-0">
+                            <div class="card-body p-0">
+                                <a href="javascript:void(0)">
+                                    <img src="images/work/4.jpg" class="img-fluid rounded-md" alt="work-image">
+                                    <div class="overlay-work bg-dark"></div>
+                                </a>
+                                <div class="content">
+                                    <h6 class="text-white d-block fw-bold mb-0">Floating Seat</h6>
+                                    <small class="text-light">Co-space</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-2 col-md-4 col-12 mt-4 pt-2">
+                        <div class="card work-container work-modern position-relative overflow-hidden shadow rounded-md border-0">
+                            <div class="card-body p-0">
+                                <a href="javascript:void(0)">
+                                    <img src="images/work/5.jpg" class="img-fluid rounded-md" alt="work-image">
+                                    <div class="overlay-work bg-dark"></div>
+                                </a>
+                                <div class="content">
+                                    <h6 class="text-white d-block fw-bold mb-0">Startups Desk</h6>
+                                    <small class="text-light">Co-space</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-2 col-md-4 col-12 mt-4 pt-2">
+                        <div class="card work-container work-modern position-relative overflow-hidden shadow rounded-md border-0">
+                            <div class="card-body p-0">
+                                <a href="javascript:void(0)">
+                                    <img src="images/work/6.jpg" class="img-fluid rounded-md" alt="work-image">
+                                    <div class="overlay-work bg-dark"></div>
+                                </a>
+                                <div class="content">
+                                    <h6 class="text-white d-block fw-bold mb-0">Retail Space</h6>
+                                    <small class="text-light">Co-space</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+            <!-- Start Price -->
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="section-title mb-4 pb-2">
+                            <h4 class="title mb-4">Choose The Pricing Plan</h4>
+                            <p class="text-muted mb-0 para-desc mx-auto">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                        <div class="pricing text-center rounded overflow-hidden shadow">
+                            <div class="price-header bg-dark pt-5 pb-5">
+                                <h5 class="price-title text-white">Private office</h5>
+                                <p class="mb-0 text-white-50">Suitable for Private office</p>
+                            </div>
+                            <div class="d-flex justify-content-center bg-light border-bottom py-4">
+                                <span class="h6 mb-0">$</span>
+                                <span class="price h4 mb-0 ms-1">0.00</span>
+                                <span class="h6 align-self-end mb-1">/mo</span>
+                            </div>
+                            <div class="pricing-features text-start">
+                                <ul class="feature list-unstyled py-4 p-3 mb-0">
+                                    <li class="feature-list text-muted">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Full Access
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Enhanced Security
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Source Files
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        1 Domain Free
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Free Appointments
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Free Installment
+                                    </li>
+                                </ul>
+                                <div class="border-top text-center py-4">
+                                    <a href="javascript:void(0)" class="btn btn-dark">Free Signup</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end price three-->
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                        <div class="pricing text-center rounded overflow-hidden shadow">
+                            <div class="price-header bg-dark pt-5 pb-5">
+                                <h5 class="price-title text-white">Event Room</h5>
+                                <p class="mb-0 text-white-50">Suitable for Event Room</p>
+                            </div>
+                            <div class="d-flex justify-content-center bg-light border-bottom py-4">
+                                <span class="h6 mb-0">$</span>
+                                <span class="price h4 mb-0 ms-1">9.99</span>
+                                <span class="h6 align-self-end mb-1">/mo</span>
+                            </div>
+                            <div class="pricing-features text-start">
+                                <ul class="feature list-unstyled py-4 p-3 mb-0">
+                                    <li class="feature-list text-muted">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Full Access
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Enhanced Security
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Source Files
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        1 Domain Free
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Free Appointments
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Free Installment
+                                    </li>
+                                </ul>
+                                <div class="border-top text-center py-4">
+                                    <a href="javascript:void(0)" class="btn btn-dark">Subscribe Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end price three-->
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                        <div class="pricing text-center rounded overflow-hidden shadow-md bg-light">
+                            <div class="price-header bg-primary pt-5 pb-5">
+                                <h5 class="price-title text-white">Small office</h5>
+                                <p class="mb-0 text-light">Suitable for Small office</p>
+                            </div>
+                            <div class="d-flex justify-content-center bg-light border-bottom py-5">
+                                <span class="h6 mb-0">$</span>
+                                <span class="price h4 mb-0 ms-1">19.99</span>
+                                <span class="h6 align-self-end mb-1">/mo</span>
+                            </div>
+                            <div class="pricing-features text-start">
+                                <ul class="feature list-unstyled py-4 p-3 mb-0">
+                                    <li class="feature-list text-muted">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-primary me-2"></i>
+                                        Full Access
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-primary me-2"></i>
+                                        Enhanced Security
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-primary me-2"></i>
+                                        Source Files
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-primary me-2"></i>
+                                        1 Domain Free
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-primary me-2"></i>
+                                        Free Appointments
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-primary me-2"></i>
+                                        Free Installment
+                                    </li>
+                                </ul>
+                                <div class="border-top text-center py-5">
+                                    <a href="javascript:void(0)" class="btn btn-primary">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end price three-->
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                        <div class="pricing text-center rounded overflow-hidden shadow">
+                            <div class="price-header bg-dark pt-5 pb-5">
+                                <h5 class="price-title text-white">Meeting Room</h5>
+                                <p class="mb-0 text-white-50">Suitable for Meeting Room</p>
+                            </div>
+                            <div class="d-flex justify-content-center bg-light border-bottom py-4">
+                                <span class="h6 mb-0">$</span>
+                                <span class="price h4 mb-0 ms-1">29.99</span>
+                                <span class="h6 align-self-end mb-1">/mo</span>
+                            </div>
+                            <div class="pricing-features text-start">
+                                <ul class="feature list-unstyled py-4 p-3 mb-0">
+                                    <li class="feature-list text-muted">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Full Access
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Enhanced Security
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Source Files
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        1 Domain Free
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Free Appointments
+                                    </li>
+                                    <li class="feature-list text-muted mt-2">
+                                        <i data-feather="arrow-right-circle" class="fea icon-sm text-dark me-2"></i>
+                                        Free Installment
+                                    </li>
+                                </ul>
+                                <div class="border-top text-center py-4">
+                                    <a href="javascript:void(0)" class="btn btn-dark">Buy Premium</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end price three-->
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+            <!-- End Price -->
+            <!-- Signup Start -->
+            <div class="container-fluid mt-100 mt-60" id="signup">
+                <div class="rounded-md px-md-5 py-5 px-4 bg-dark shadow position-relative overflow-hidden" style="background: url('images/cta.jpg') center center;">
+                    <div class="bg-overlay"></div>
+                    <div class="row">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-8 col-md-6 col-12">
+                                    <div class="section-title text-center text-md-start mb-4 mb-sm-0 pb-2 pb-sm-0">
+                                        <h6 class="text-white-50 mb-2">Join the community</h6>
+                                        <h4 class="title text-white mb-4">Get inspired and get to work.</h4>
+                                        <p class="text-white-50 mb-0 para-desc">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                                        <div class="watch-video mt-4">
+                                            <a
+                                                href="javascript:void(0)"
+                                                data-type="youtube"
+                                                data-id="-rnEepQ_jpI"
+                                                class="video-play-icon watch text-secondary lightbox"
+                                            >
+                                                <i class="mdi mdi-play play-icon-circle text-center d-inline-block me-2 rounded-pill text-light position-relative play play-iconbar"></i>
+                                                Watch now !
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--end col-->
+                                <div class="col-lg-4 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                                    <div class="login-page bg-white shadow rounded py-5 px-4 position-relative">
+                                        <a href="#">
+                                            <img
+                                                src="images/loader-logo.png"
+                                                height="75"
+                                                class="d-block mx-auto"
+                                                alt=""
+                                            >
+                                        </a>
+                                        <div class="text-center my-4">
+                                            <h5 class="mb-0">Sign Up</h5>
+                                        </div>
+                                        <form class="login-form">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-floating mb-3">
+                                                        <input
+                                                            name="name"
+                                                            id="name"
+                                                            type="text"
+                                                            class="form-control"
+                                                            placeholder="Name :"
+                                                        >
+                                                        <label class="form-label">Your Name</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-floating mb-3">
+                                                        <input
+                                                            type="password"
+                                                            class="form-control"
+                                                            required=""
+                                                            placeholder="Password :"
+                                                        >
+                                                        <label class="form-label">Password</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-check mb-3">
+                                                        <input
+                                                            class="form-check-input"
+                                                            type="checkbox"
+                                                            value=""
+                                                            id="flexCheckChecked"
+                                                        >
+                                                        <label class="form-check-label" for="flexCheckChecked">
+                                                            I Accept
+                                                            <a href="#!" class="text-primary">Terms And Condition</a>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <button class="btn btn-primary w-100">Create Account</button>
+                                                </div>
+                                                <div class="col-12 text-center">
+                                                    <p class="mb-0 mt-3">
+                                                        <small class="text-dark me-2">Already have an account ?</small>
+                                                        <a href="page-login.html" class="text-dark fw-bold">Sign in</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!--end col-->
+                            </div>
+                            <!--end row-->
+                        </div>
+                        <!--end container-->
+                    </div>
+                    <!--end row-->
+                </div>
+            </div>
+            <!--end container-->
+            <!-- Signup End -->
+            <!-- start testi -->
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h4 class="title mb-4">Here from our members</h4>
+                            <p class="text-muted mb-0 para-desc mx-auto">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+                <div class="row">
+                    <div class="col-12 mt-4 pt-2">
+                        <div class="tiny-three-item">
+                            <div class="tiny-slide">
+                                <div class="customer-testi m-1">
+                                    <div class="content p-3 shadow rounded bg-white position-relative">
+                                        <ul class="list-unstyled mb-0 text-warning">
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
+                                    </div>
+                                    <div class="d-flex mt-3 align-items-center">
+                                        <img src="images/client/01.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
+                                        <p class="text-primary mb-0">
+                                            - Calvin Carlo
+                                            <small class="text-muted d-block ms-2">Manager</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tiny-slide">
+                                <div class="customer-testi m-1">
+                                    <div class="content p-3 shadow rounded bg-white position-relative">
+                                        <ul class="list-unstyled mb-0 text-warning">
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
+                                    </div>
+                                    <div class="d-flex mt-3 align-items-center">
+                                        <img src="images/client/02.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
+                                        <p class="text-primary mb-0">
+                                            - Christa Smith
+                                            <small class="text-muted d-block ms-2">Manager</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tiny-slide">
+                                <div class="customer-testi m-1">
+                                    <div class="content p-3 shadow rounded bg-white position-relative">
+                                        <ul class="list-unstyled mb-0 text-warning">
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
+                                    </div>
+                                    <div class="d-flex mt-3 align-items-center">
+                                        <img src="images/client/03.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
+                                        <p class="text-primary mb-0">
+                                            - Jemina CLone
+                                            <small class="text-muted d-block ms-2">Manager</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tiny-slide">
+                                <div class="customer-testi m-1">
+                                    <div class="content p-3 shadow rounded bg-white position-relative">
+                                        <ul class="list-unstyled mb-0 text-warning">
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
+                                    </div>
+                                    <div class="d-flex mt-3 align-items-center">
+                                        <img src="images/client/04.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
+                                        <p class="text-primary mb-0">
+                                            - Smith Vodka
+                                            <small class="text-muted d-block ms-2">Manager</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tiny-slide">
+                                <div class="customer-testi m-1">
+                                    <div class="content p-3 shadow rounded bg-white position-relative">
+                                        <ul class="list-unstyled mb-0 text-warning">
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="mdi mdi-star"></i>
+                                            </li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
+                                    </div>
+                                    <div class="d-flex mt-3 align-items-center">
+                                        <img src="images/client/05.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
+                                        <p class="text-primary mb-0">
+                                            - Cristino Murfi
+                                            <small class="text-muted d-block ms-2">Manager</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+            <!-- end testi -->
+            <!-- Start Blog -->
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h4 class="title mb-4">News & Events</h4>
+                            <p class="text-muted mb-0 para-desc mx-auto">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card blog border-0 shadow rounded overflow-hidden">
+                            <div class="image position-relative overflow-hidden">
+                                <img src="images/work/7.jpg" class="img-fluid" alt="">
+                                <div class="blog-tag">
+                                    <a href="javascript:void(0)" class="badge bg-light text-dark">Cospace</a>
+                                </div>
+                            </div>
+                            <div class="card-body content">
+                                <a href="blog-detail-five.html" class="h5 title text-dark mb-0">Tips for higher productivity</a>
+                                <p class="text-muted mt-2 mb-2">The most well-known dummy text is the 'Lorem Ipsum', in the 16th century.</p>
+                                <a href="blog-detail-five.html" class="link text-dark">
+                                    Read More
+                                    <i class="uil uil-arrow-right align-middle"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card blog border-0 shadow rounded overflow-hidden">
+                            <div class="image position-relative overflow-hidden">
+                                <img src="images/work/8.jpg" class="img-fluid" alt="">
+                                <div class="blog-tag">
+                                    <a href="javascript:void(0)" class="badge bg-light text-dark">Cospace</a>
+                                </div>
+                            </div>
+                            <div class="card-body content">
+                                <a href="blog-detail-five.html" class="h5 title text-dark mb-0">Green work environment</a>
+                                <p class="text-muted mt-2 mb-2">The most well-known dummy text is the 'Lorem Ipsum', in the 16th century.</p>
+                                <a href="blog-detail-five.html" class="link text-dark">
+                                    Read More
+                                    <i class="uil uil-arrow-right align-middle"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card blog border-0 shadow rounded overflow-hidden">
+                            <div class="image position-relative overflow-hidden">
+                                <img src="images/work/9.jpg" class="img-fluid" alt="">
+                                <div class="blog-tag">
+                                    <a href="javascript:void(0)" class="badge bg-light text-dark">Cospace</a>
+                                </div>
+                            </div>
+                            <div class="card-body content">
+                                <a href="blog-detail-five.html" class="h5 title text-dark mb-0">Importance of social interactions</a>
+                                <p class="text-muted mt-2 mb-2">The most well-known dummy text is the 'Lorem Ipsum', in the 16th century.</p>
+                                <a href="blog-detail-five.html" class="link text-dark">
+                                    Read More
+                                    <i class="uil uil-arrow-right align-middle"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end -->
+            <!-- End Blog -->
+        </section>
+        <!--end section-->
+        <!-- End -->
+        <!-- Footer Start -->
+        <footer class="bg-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-py-100">
+                            <div class="row">
+                                <div class="col-lg-5 col-12 mb-lg-0 mb-md-4 pb-lg-0 pb-md-2">
+                                    <a href="#" class="logo-footer text-white">
+                                        <img
+                                            src="images/logo-light.png"
+                                            class="l-light"
+                                            height="24"
+                                            alt=""
+                                        >
+                                    </a>
+                                    <p class="text-foot mt-4">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                                    <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0)" class="rounded">
+                                                <i data-feather="facebook" class="fea icon-sm fea-social"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0)" class="rounded">
+                                                <i data-feather="instagram" class="fea icon-sm fea-social"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0)" class="rounded">
+                                                <i data-feather="twitter" class="fea icon-sm fea-social"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0)" class="rounded">
+                                                <i data-feather="linkedin" class="fea icon-sm fea-social"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <!--end icon-->
+                                </div>
+                                <!--end col-->
+                                <div class="col-lg-7 col-12">
+                                    <div class="row">
+                                        <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                                            <h5 class="text-light footer-head">Company</h5>
+                                            <ul class="list-unstyled footer-list mt-4">
+                                                <li>
+                                                    <a href="javascript:void(0)" class="text-foot">
+                                                        <i class="mdi mdi-chevron-right me-1"></i>
+                                                        About us
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)" class="text-foot">
+                                                        <i class="mdi mdi-chevron-right me-1"></i>
+                                                        Services
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)" class="text-foot">
+                                                        <i class="mdi mdi-chevron-right me-1"></i>
+                                                        Pricing
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)" class="text-foot">
+                                                        <i class="mdi mdi-chevron-right me-1"></i>
+                                                        Project
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)" class="text-foot">
+                                                        <i class="mdi mdi-chevron-right me-1"></i>
+                                                        Blog
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!--end col-->
+                                        <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                                            <h5 class="text-light footer-head">Support</h5>
+                                            <ul class="list-unstyled footer-list mt-4">
+                                                <li>
+                                                    <a href="javascript:void(0)" class="text-foot">
+                                                        <i class="mdi mdi-chevron-right me-1"></i>
+                                                        Help Desk
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)" class="text-foot">
+                                                        <i class="mdi mdi-chevron-right me-1"></i>
+                                                        Live Chat
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)" class="text-foot">
+                                                        <i class="mdi mdi-chevron-right me-1"></i>
+                                                        Knowledge
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)" class="text-foot">
+                                                        <i class="mdi mdi-chevron-right me-1"></i>
+                                                        Messaging
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!--end col-->
+                                        <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                                            <h5 class="text-light footer-head">Contacts</h5>
+                                            <ul class="list-unstyled footer-list mt-4">
+                                                <li>
+                                                    <i data-feather="map-pin" class="fea icon-sm text-foot me-2"></i>
+                                                    <a href="#" class="text-foot">Londan, England</a>
+                                                </li>
+                                                <li>
+                                                    <i data-feather="mail" class="fea icon-sm text-foot me-2"></i>
+                                                    <a href="mailto:contact@example.com" class="text-foot">test@domain.com</a>
+                                                </li>
+                                                <li>
+                                                    <i data-feather="phone" class="fea icon-sm text-foot me-2"></i>
+                                                    <a href="tel:+152534-468-854" class="text-foot">+(12) 1254-5487</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!--end col-->
+                                    </div>
+                                    <!--end row-->
+                                </div>
+                                <!--end col-->
+                            </div>
+                            <!--end row-->
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+            <div class="footer-py-30 footer-border-top">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 text-center">
+                            <p class="mb-0 text-foot">
+                                <script>document.write(new Date().getFullYear())</script>
+                                © Codash. Design with
+                                <i class="mdi mdi-heart text-danger"></i>
+                                by
+                                <a href="https://shreethemes.in/" target="_blank" class="text-reset">Shreethemes</a>
+                                .
+                            </p>
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+            </div>
+        </footer>
+        <!--end footer-->
+        <!-- Footer End -->
+        <!-- Login Modal start -->
+        <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header p-4">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Login Now</h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body p-4">
+                        <form class="login-form">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label class="form-label">
+                                            Your Email
+                                            <span class="text-danger">*</span>
+                                        </label>
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            name="email"
+                                            required=""
+                                            placeholder="Your Email :"
+                                        >
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label class="form-label">
+                                            Password
+                                            <span class="text-danger">*</span>
+                                        </label>
+                                        <input
+                                            type="password"
+                                            class="form-control"
+                                            required=""
+                                            placeholder="Password :"
+                                        >
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input
+                                            class="form-check-input"
+                                            type="checkbox"
+                                            value=""
+                                            id="flexCheckDefault"
+                                        >
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Remember Me
+                                        </label>
+                                    </div>
+                                    <p class="forgot-pass mb-0">
+                                        <a href="page-reset-password.html" class="text-dark fw-bold">Forgot password ?</a>
+                                    </p>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100">Create Account</button>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <p class="mb-0 mt-3">
+                                        <small class="text-dark me-2">Already have an account ?</small>
+                                        <a href="page-login.html" class="text-dark fw-bold">Sign in</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end modal-->
+        <!-- Login Modal end -->
+        <!-- Back to top -->
+        <a
+            href="#"
+            class="btn btn-icon btn-primary back-to-top"
+            onclick="topFunction()"
+            id="back-to-top"
+        >
+            <i data-feather="arrow-up" class="icons"></i>
+        </a>
+        <!-- Back to top -->
+        <!-- javascript -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- Icon -->
+        <script src="js/feather.min.js"></script>
+        <!-- Icon -->
+        <script src="js/tobii.min.js"></script>
+        <!-- Choice js -->
+        <script src="js/choices.min.js"></script>
+        <!-- SLIDER -->
+        <script src="js/tiny-slider.js "></script>
+        <!-- Main Js -->
+        <script src="js/plugins.init.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>

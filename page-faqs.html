@@ -1,0 +1,431 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Codash - Bootstrap 5 Coworking Space Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="App and Saas Landing Template" />
+        <meta name="keywords" content="Application, Clean, Saas, Dashboard, Bootstrap4" />
+        <meta content="Shreethemes" name="author" />
+        <!-- favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <!-- Bootstrap css -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- Icons -->
+        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css">
+        <!-- Main css File -->
+        <link href="css/style.min.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <!-- Loader Start -->
+        <div id="preloader">
+            <div id="status">
+                <div class="logo">
+                    <img src="images/loader-logo.png" height="100" class="d-block mx-auto" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Loader End -->
+
+        <!-- Navbar STart -->
+        <header id="topnav" class="defaultscroll sticky">
+            <div class="container">
+                <!-- Logo container-->
+                <a class="logo" href="index.html">
+                    <img src="images/logo.png" class="l-dark" height="24" alt="">
+                    <img src="images/logo-light.png" class="l-light" height="24" alt="">
+                </a>
+                <!-- End Logo container-->
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                </div>
+
+                <div class="buy-button">
+                    <a href="javascript:void(0)" class="text-white login scroll-down" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="uil uil-user"></i></a>
+                </div><!--end login button-->
+        
+                <div id="navigation">
+                    <!-- Navigation Menu-->   
+                    <ul class="navigation-menu nav-light nav-right">
+                        <li class="has-submenu parent-menu-item">
+                            <a href="javascript:void(0)" class="sub-menu-item">Home</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="index.html" class="sub-menu-item">Home One</a></li>
+                                <li><a href="index-two.html" class="sub-menu-item">Home Two</a></li>
+                                <li><a href="index-three.html" class="sub-menu-item">Home Three</a></li>
+                                <li><a href="index-four.html" class="sub-menu-item">Home Four</a></li>
+                                <li><a href="index-five.html" class="sub-menu-item">Home Five</a></li>
+                                <li><a href="index-six.html" class="sub-menu-item">Home Six</a></li>
+                                <li><a href="index-seven.html" class="sub-menu-item">Home Seven</a></li>
+                                <li><a href="index-eight.html" class="sub-menu-item">Home Eight <span class="badge bg-danger">New</span></a></li>
+                                <li><a href="index-nine.html" class="sub-menu-item">Home Nine <span class="badge bg-danger">New</span></a></li>
+                                <li><a href="index-ten.html" class="sub-menu-item">Home Ten <span class="badge bg-danger">New</span></a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu parent-parent-menu-item">
+                            <a href="javascript:void(0)" class="sub-menu-item">Pages</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="page-about.html" class="sub-menu-item">About us</a></li>
+                                <li><a href="page-services.html" class="sub-menu-item">Services</a></li>
+                                <li><a href="page-pricing.html" class="sub-menu-item">Pricing</a></li>
+                                <li><a href="page-benefits.html" class="sub-menu-item">Benefits</a></li>
+                                <li><a href="page-team.html" class="sub-menu-item">Team</a></li>
+                                <li><a href="page-faqs.html" class="sub-menu-item">FAQs</a></li>
+                                <li><a href="page-terms.html" class="sub-menu-item">Terms Policy</a></li>
+                                <li class="has-submenu parent-menu-item">
+                                    <a href="javascript:void(0)" class="sub-menu-item">Blog</a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="page-blog.html" class="sub-menu-item">Blog</a></li>
+                                        <li><a href="page-blog-sidebar.html" class="sub-menu-item">Blog - Sidebar</a></li>
+                                        <li><a href="page-blog-detail.html" class="sub-menu-item">Single Blog</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-submenu parent-menu-item">
+                                    <a href="javascript:void(0)" class="sub-menu-item">Auth Pages</a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="page-login.html" class="sub-menu-item">Login</a></li>
+                                        <li><a href="page-signup.html" class="sub-menu-item">Signup</a></li>
+                                        <li><a href="page-reset-password.html" class="sub-menu-item">Reset Password</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="404.html" class="sub-menu-item">404</a></li>
+                                <li><a href="page-blank.html" class="sub-menu-item">Blank Page</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu parent-menu-item">
+                            <a href="javascript:void(0)" class="sub-menu-item">Spaces</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="page-spaces.html" class="sub-menu-item">All Spaces</a></li>
+                                <li><a href="page-spaces-sidebar.html" class="sub-menu-item">Spaces - Sidebar</a></li>
+                                <li><a href="page-space-detail.html" class="sub-menu-item">Space Detail</a></li>
+                                <li><a href="page-all-cities.html" class="sub-menu-item">All Cities</a></li>
+                                <li><a href="page-cities-sidebar.html" class="sub-menu-item">Cities - Sidebar</a></li>
+                                <li><a href="page-cities-detail.html" class="sub-menu-item">Cities Detail</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu parent-menu-item">
+                            <a href="javascript:void(0)" class="sub-menu-item">Events</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="event-over.html" class="sub-menu-item">Overview</a></li>
+                                <li><a href="event-list.html" class="sub-menu-item">Event List</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="page-contact.html" class="sub-menu-item">Contact</a></li>
+                    </ul><!--end navigation menu-->
+                </div><!--end navigation-->
+            </div><!--end container-->
+        </header><!--end header-->
+        <!-- Navbar End -->
+
+        <!-- Hero Start -->
+        <section class="bg-half d-table w-100" style="background: url('images/home/pages.jpg') center center;">
+            <div class="bg-overlay" style="background-image: url('images/bg.png')"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <div class="title-heading">
+                            <h3 class="text-white">Frequently asked questions</h3>
+                            <div class="breadcrumb-position">
+                                <nav aria-label="breadcrumb" class="d-inline-block">
+                                    <ul class="breadcrumb bg-white rounded shadow-md mb-0">
+                                        <li class="breadcrumb-item"><a href="index.html">Codash</a></li>
+                                        <li class="breadcrumb-item"><a href="#">Page</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">FAQs</li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container--> 
+        </section><!--end section-->
+        <!-- Hero End -->
+        
+        <section class="section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-9 col-12">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item rounded">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button border-0 bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        Can I come take a tour anytime?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse border-0 collapse show" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-muted bg-white">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item rounded mt-2">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                        aria-expanded="false" aria-controls="collapseTwo">
+                                        Do you have student or small company discounts?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse border-0 collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-muted bg-white">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item rounded mt-2">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Can I cancel anytime or is there a lock-in period?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse border-0 collapse" aria-labelledby="headingThree"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-muted bg-white">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item rounded mt-2">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        What is the difference between your room types?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse border-0 collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-muted bg-white">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item rounded mt-2">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        Is the laundry facility free?
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse border-0 collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-muted bg-white">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item rounded mt-2">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        How are you handling safety of the offices?
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse border-0 collapse" aria-labelledby="headingSix"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-muted bg-white">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--end accordion-->
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="d-flex feature">
+                            <div class="icons m-0 rounded-md h2 text-primary text-center px-3">
+                                <i class="uil uil-phone"></i>
+                            </div>
+                            <div class="content ms-4">
+                                <h5>Phone</h5>
+                                <p class="text-muted">Start working with Codash that can provide everything</p>
+                                <a href="tel:+152534-468-854" class="text-primary">+152 534-468-854</a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12 mt-5 mt-sm-0">
+                        <div class="d-flex feature">
+                            <div class="icons m-0 rounded-md h2 text-primary text-center px-3">
+                                <i class="uil uil-envelope"></i>
+                            </div>
+                            <div class="content ms-4">
+                                <h5>Email</h5>
+                                <p class="text-muted">Start working with Codash that can provide everything</p>
+                                <a href="mailto:contact@example.com" class="text-primary">contact@example.com</a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12 mt-5 mt-lg-0">
+                        <div class="d-flex feature">
+                            <div class="icons m-0 rounded-md h2 text-primary text-center px-3">
+                                <i class="uil uil-map-marker"></i>
+                            </div>
+                            <div class="content ms-4">
+                                <h5>Location</h5>
+                                <p class="text-muted mb-0">C/54 Northwest Freeway, Suite 558, <br>Houston, USA 485</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+
+        <!-- Footer Start -->
+        <footer class="bg-footer">    
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-py-100">
+                            <div class="row">
+                                <div class="col-lg-5 col-12 mb-lg-0 mb-md-4 pb-lg-0 pb-md-2">
+                                    <a href="#" class="logo-footer text-white"><img src="images/logo-light.png" class="l-light" height="24" alt=""></a>
+                                    <p class="text-foot mt-4">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                                    <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                                    </ul><!--end icon-->
+                                </div><!--end col-->
+
+                                <div class="col-lg-7 col-12">
+                                    <div class="row">
+                                        <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                                            <h5 class="text-light footer-head">Company</h5>
+                                            <ul class="list-unstyled footer-list mt-4">
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> About us</a></li>
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Services</a></li>
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Pricing</a></li>
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Project</a></li>
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Blog</a></li>
+                                            </ul>
+                                        </div><!--end col-->
+            
+                                        <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                                            <h5 class="text-light footer-head">Support</h5>
+                                            <ul class="list-unstyled footer-list mt-4">
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Help Desk</a></li>
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Live Chat</a></li>
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Knowledge</a></li>
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Messaging</a></li>
+                                            </ul>
+                                        </div><!--end col-->
+            
+                                        <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                                            <h5 class="text-light footer-head">Contacts</h5>
+                                            <ul class="list-unstyled footer-list mt-4">
+                                                <li><i data-feather="map-pin" class="fea icon-sm text-foot me-2"></i><a href="#" class="text-foot">Londan, England</a></li>
+                                                <li><i data-feather="mail" class="fea icon-sm text-foot me-2"></i><a href="mailto:contact@example.com" class="text-foot">test@domain.com</a></li>
+                                                <li><i data-feather="phone" class="fea icon-sm text-foot me-2"></i><a href="tel:+152534-468-854" class="text-foot">+(12) 1254-5487</a></li>
+                                            </ul>
+                                        </div><!--end col-->
+                                    </div><!--end row-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="footer-py-30 footer-border-top">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 text-center">
+                            <p class="mb-0 text-foot"><script>document.write(new Date().getFullYear())</script> © Codash. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="https://shreethemes.in/" target="_blank" class="text-reset">Shreethemes</a>.</p>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div>
+        </footer><!--end footer-->
+        <!-- Footer End -->
+
+        <!-- Login Modal start -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header p-4">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Login Now </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body p-4">
+                        <form class="login-form">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label class="form-label">Your Email <span class="text-danger">*</span></label>
+                                        <input type="email" class="form-control"  name="email" required="" placeholder="Your Email :">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label class="form-label">Password <span class="text-danger">*</span></label>
+                                        <input type="password" class="form-control"  required="" placeholder="Password :">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Remember Me
+                                            </label>
+                                        </div>
+                                        <p class="forgot-pass mb-0"><a href="page-reset-password.html" class="text-dark fw-bold">Forgot password ?</a></p>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100">Create Account</button>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <p class="mb-0 mt-3"><small class="text-dark me-2">Already have an account ?</small> <a href="page-login.html" class="text-dark fw-bold">Sign in</a></p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div><!--end modal-->
+        <!-- Login Modal end -->
+
+        <!-- Back to top -->
+        <a href="#" class="btn btn-icon btn-primary back-to-top" onclick="topFunction()" id="back-to-top"><i data-feather="arrow-up" class="icons"></i></a>
+        <!-- Back to top -->
+        
+        <!-- javascript -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- Icon -->
+        <script src="js/feather.min.js"></script>
+        <!-- Main Js -->
+        <script src="js/plugins.init.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>

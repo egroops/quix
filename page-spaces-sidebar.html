@@ -1,0 +1,958 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Codash - Bootstrap 5 Coworking Space Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="App and Saas Landing Template" />
+        <meta name="keywords" content="Application, Clean, Saas, Dashboard, Bootstrap4" />
+        <meta content="Shreethemes" name="author" />
+        <!-- favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <!-- Bootstrap css -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- Icons -->
+        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css">
+        <!-- Choice css -->               
+        <link rel="stylesheet" href="css/choices.min.css"/>
+        <!-- Date picker -->
+        <link rel="stylesheet" href="css/datepicker.min.css">
+        <!-- Main css File -->
+        <link href="css/style.min.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <!-- Loader Start -->
+        <div id="preloader">
+            <div id="status">
+                <div class="logo">
+                    <img src="images/loader-logo.png" height="100" class="d-block mx-auto" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Loader End -->
+
+        <!-- Navbar STart -->
+        <header id="topnav" class="defaultscroll sticky">
+            <div class="container">
+                <!-- Logo container-->
+                <a class="logo" href="index.html">
+                    <img src="images/logo.png" class="l-dark" height="24" alt="">
+                    <img src="images/logo-light.png" class="l-light" height="24" alt="">
+                </a>
+                <!-- End Logo container-->
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                </div>
+
+                <div class="buy-button">
+                    <a href="javascript:void(0)" class="text-white login scroll-down" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="uil uil-user"></i></a>
+                </div><!--end login button-->
+        
+                <div id="navigation">
+                    <!-- Navigation Menu-->   
+                    <ul class="navigation-menu nav-light nav-right">
+                        <li class="has-submenu parent-menu-item">
+                            <a href="javascript:void(0)" class="sub-menu-item">Home</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="index.html" class="sub-menu-item">Home One</a></li>
+                                <li><a href="index-two.html" class="sub-menu-item">Home Two</a></li>
+                                <li><a href="index-three.html" class="sub-menu-item">Home Three</a></li>
+                                <li><a href="index-four.html" class="sub-menu-item">Home Four</a></li>
+                                <li><a href="index-five.html" class="sub-menu-item">Home Five</a></li>
+                                <li><a href="index-six.html" class="sub-menu-item">Home Six</a></li>
+                                <li><a href="index-seven.html" class="sub-menu-item">Home Seven</a></li>
+                                <li><a href="index-eight.html" class="sub-menu-item">Home Eight <span class="badge bg-danger">New</span></a></li>
+                                <li><a href="index-nine.html" class="sub-menu-item">Home Nine <span class="badge bg-danger">New</span></a></li>
+                                <li><a href="index-ten.html" class="sub-menu-item">Home Ten <span class="badge bg-danger">New</span></a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu parent-parent-menu-item">
+                            <a href="javascript:void(0)" class="sub-menu-item">Pages</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="page-about.html" class="sub-menu-item">About us</a></li>
+                                <li><a href="page-services.html" class="sub-menu-item">Services</a></li>
+                                <li><a href="page-pricing.html" class="sub-menu-item">Pricing</a></li>
+                                <li><a href="page-benefits.html" class="sub-menu-item">Benefits</a></li>
+                                <li><a href="page-team.html" class="sub-menu-item">Team</a></li>
+                                <li><a href="page-faqs.html" class="sub-menu-item">FAQs</a></li>
+                                <li><a href="page-terms.html" class="sub-menu-item">Terms Policy</a></li>
+                                <li class="has-submenu parent-menu-item">
+                                    <a href="javascript:void(0)" class="sub-menu-item">Blog</a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="page-blog.html" class="sub-menu-item">Blog</a></li>
+                                        <li><a href="page-blog-sidebar.html" class="sub-menu-item">Blog - Sidebar</a></li>
+                                        <li><a href="page-blog-detail.html" class="sub-menu-item">Single Blog</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-submenu parent-menu-item">
+                                    <a href="javascript:void(0)" class="sub-menu-item">Auth Pages</a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="page-login.html" class="sub-menu-item">Login</a></li>
+                                        <li><a href="page-signup.html" class="sub-menu-item">Signup</a></li>
+                                        <li><a href="page-reset-password.html" class="sub-menu-item">Reset Password</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="404.html" class="sub-menu-item">404</a></li>
+                                <li><a href="page-blank.html" class="sub-menu-item">Blank Page</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu parent-menu-item">
+                            <a href="javascript:void(0)" class="sub-menu-item">Spaces</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="page-spaces.html" class="sub-menu-item">All Spaces</a></li>
+                                <li><a href="page-spaces-sidebar.html" class="sub-menu-item">Spaces - Sidebar</a></li>
+                                <li><a href="page-space-detail.html" class="sub-menu-item">Space Detail</a></li>
+                                <li><a href="page-all-cities.html" class="sub-menu-item">All Cities</a></li>
+                                <li><a href="page-cities-sidebar.html" class="sub-menu-item">Cities - Sidebar</a></li>
+                                <li><a href="page-cities-detail.html" class="sub-menu-item">Cities Detail</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu parent-menu-item">
+                            <a href="javascript:void(0)" class="sub-menu-item">Events</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="event-over.html" class="sub-menu-item">Overview</a></li>
+                                <li><a href="event-list.html" class="sub-menu-item">Event List</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="page-contact.html" class="sub-menu-item">Contact</a></li>
+                    </ul><!--end navigation menu-->
+                </div><!--end navigation-->
+            </div><!--end container-->
+        </header><!--end header-->
+        <!-- Navbar End -->
+
+        <!-- Hero Start -->
+        <section class="bg-half-170 d-table w-100" style="background: url('images/home/pages.jpg') center center;">
+            <div class="bg-overlay" style="background-image: url('images/bg.png')"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <div class="title-heading">
+                            <h3 class="text-white">All Spaces</h3>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container--> 
+        </section><!--end section-->
+        <!-- Hero End -->
+
+        <!-- Start -->
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card feature-top border-0 shadow rounded p-4">
+                            <form action="#">
+                                <div class="registration-form">
+                                    <div class="row g-0">
+                                        <div class="col-lg-3">
+                                            <div class="filter-search-form position-relative filter-border">
+                                                <i class="uil uil-briefcase-alt icons"></i>
+                                                <select class="form-select " data-trigger name="choices-type" id="choices-type" aria-label="Default select example">
+                                                    <option selected="" value="1">Private office</option>
+                                                    <option value="2">Dedicated Space</option>
+                                                    <option value="3">Small office</option>
+                                                    <option value="4">Floating Seat</option>
+                                                    <option value="5">Startups Desk</option>
+                                                    <option value="6">Retail Space</option>
+                                                    <option value="7">Meeting Room</option>
+                                                </select>
+                                            </div>
+                                        </div><!--end col-->
+                                        <div class="col-lg-3 mt-3 mt-lg-0">
+                                            <div class="filter-search-form position-relative filter-border">
+                                                <i class="uil uil-map-marker icons"></i>
+                                                <select class="form-select" data-trigger name="choices-location" id="choices-location" aria-label="Default select example">
+                                                    <option value="AF">Afghanistan</option>
+                                                    <option value="AX">&Aring;land Islands</option>
+                                                    <option value="AL">Albania</option>
+                                                    <option value="DZ">Algeria</option>
+                                                    <option value="AS">American Samoa</option>
+                                                    <option value="AD">Andorra</option>
+                                                    <option value="AO">Angola</option>
+                                                    <option value="AI">Anguilla</option>
+                                                    <option value="AQ">Antarctica</option>
+                                                    <option value="AG">Antigua and Barbuda</option>
+                                                    <option value="AR">Argentina</option>
+                                                    <option value="AM">Armenia</option>
+                                                    <option value="AW">Aruba</option>
+                                                    <option value="AU">Australia</option>
+                                                    <option value="AT">Austria</option>
+                                                    <option value="AZ">Azerbaijan</option>
+                                                    <option value="BS">Bahamas</option>
+                                                    <option value="BH">Bahrain</option>
+                                                    <option value="BD">Bangladesh</option>
+                                                    <option value="BB">Barbados</option>
+                                                    <option value="BY">Belarus</option>
+                                                    <option value="BE">Belgium</option>
+                                                    <option value="BZ">Belize</option>
+                                                    <option value="BJ">Benin</option>
+                                                    <option value="BM">Bermuda</option>
+                                                    <option value="BT">Bhutan</option>
+                                                    <option value="BO">Bolivia, Plurinational State of</option>
+                                                    <option value="BA">Bosnia and Herzegovina</option>
+                                                    <option value="BW">Botswana</option>
+                                                    <option value="BV">Bouvet Island</option>
+                                                    <option value="BR">Brazil</option>
+                                                    <option value="IO">British Indian Ocean Territory</option>
+                                                    <option value="BN">Brunei Darussalam</option>
+                                                    <option value="BG">Bulgaria</option>
+                                                    <option value="BF">Burkina Faso</option>
+                                                    <option value="BI">Burundi</option>
+                                                    <option value="KH">Cambodia</option>
+                                                    <option value="CM">Cameroon</option>
+                                                    <option value="CA">Canada</option>
+                                                    <option value="CV">Cape Verde</option>
+                                                    <option value="KY">Cayman Islands</option>
+                                                    <option value="CF">Central African Republic</option>
+                                                    <option value="TD">Chad</option>
+                                                    <option value="CL">Chile</option>
+                                                    <option value="CN">China</option>
+                                                    <option value="CX">Christmas Island</option>
+                                                    <option value="CC">Cocos (Keeling) Islands</option>
+                                                    <option value="CO">Colombia</option>
+                                                    <option value="KM">Comoros</option>
+                                                    <option value="CG">Congo</option>
+                                                    <option value="CD">Congo, the Democratic Republic of the</option>
+                                                    <option value="CK">Cook Islands</option>
+                                                    <option value="CR">Costa Rica</option>
+                                                    <option value="CI">C&ocirc;te d'Ivoire</option>
+                                                    <option value="HR">Croatia</option>
+                                                    <option value="CU">Cuba</option>
+                                                    <option value="CY">Cyprus</option>
+                                                    <option value="CZ">Czech Republic</option>
+                                                    <option value="DK">Denmark</option>
+                                                    <option value="DJ">Djibouti</option>
+                                                    <option value="DM">Dominica</option>
+                                                    <option value="DO">Dominican Republic</option>
+                                                    <option value="EC">Ecuador</option>
+                                                    <option value="EG">Egypt</option>
+                                                    <option value="SV">El Salvador</option>
+                                                    <option value="GQ">Equatorial Guinea</option>
+                                                    <option value="ER">Eritrea</option>
+                                                    <option value="EE">Estonia</option>
+                                                    <option value="ET">Ethiopia</option>
+                                                    <option value="FK">Falkland Islands (Malvinas)</option>
+                                                    <option value="FO">Faroe Islands</option>
+                                                    <option value="FJ">Fiji</option>
+                                                    <option value="FI">Finland</option>
+                                                    <option value="FR">France</option>
+                                                    <option value="GF">French Guiana</option>
+                                                    <option value="PF">French Polynesia</option>
+                                                    <option value="TF">French Southern Territories</option>
+                                                    <option value="GA">Gabon</option>
+                                                    <option value="GM">Gambia</option>
+                                                    <option value="GE">Georgia</option>
+                                                    <option value="DE">Germany</option>
+                                                    <option value="GH">Ghana</option>
+                                                    <option value="GI">Gibraltar</option>
+                                                    <option value="GR">Greece</option>
+                                                    <option value="GL">Greenland</option>
+                                                    <option value="GD">Grenada</option>
+                                                    <option value="GP">Guadeloupe</option>
+                                                    <option value="GU">Guam</option>
+                                                    <option value="GT">Guatemala</option>
+                                                    <option value="GG">Guernsey</option>
+                                                    <option value="GN">Guinea</option>
+                                                    <option value="GW">Guinea-Bissau</option>
+                                                    <option value="GY">Guyana</option>
+                                                    <option value="HT">Haiti</option>
+                                                    <option value="HM">Heard Island and McDonald Islands</option>
+                                                    <option value="VA">Holy See (Vatican City State)</option>
+                                                    <option value="HN">Honduras</option>
+                                                    <option value="HK">Hong Kong</option>
+                                                    <option value="HU">Hungary</option>
+                                                    <option value="IS">Iceland</option>
+                                                    <option value="IN">India</option>
+                                                    <option value="ID">Indonesia</option>
+                                                    <option value="IR">Iran, Islamic Republic of</option>
+                                                    <option value="IQ">Iraq</option>
+                                                    <option value="IE">Ireland</option>
+                                                    <option value="IM">Isle of Man</option>
+                                                    <option value="IL">Israel</option>
+                                                    <option value="IT">Italy</option>
+                                                    <option value="JM">Jamaica</option>
+                                                    <option value="JP">Japan</option>
+                                                    <option value="JE">Jersey</option>
+                                                    <option value="JO">Jordan</option>
+                                                    <option value="KZ">Kazakhstan</option>
+                                                    <option value="KE">Kenya</option>
+                                                    <option value="KI">Kiribati</option>
+                                                    <option value="KP">Korea, Democratic People's Republic of</option>
+                                                    <option value="KR">Korea, Republic of</option>
+                                                    <option value="KW">Kuwait</option>
+                                                    <option value="KG">Kyrgyzstan</option>
+                                                    <option value="LA">Lao People's Democratic Republic</option>
+                                                    <option value="LV">Latvia</option>
+                                                    <option value="LB">Lebanon</option>
+                                                    <option value="LS">Lesotho</option>
+                                                    <option value="LR">Liberia</option>
+                                                    <option value="LY">Libyan Arab Jamahiriya</option>
+                                                    <option value="LI">Liechtenstein</option>
+                                                    <option value="LT">Lithuania</option>
+                                                    <option value="LU">Luxembourg</option>
+                                                    <option value="MO">Macao</option>
+                                                    <option value="MK">Macedonia, the former Yugoslav Republic of</option>
+                                                    <option value="MG">Madagascar</option>
+                                                    <option value="MW">Malawi</option>
+                                                    <option value="MY">Malaysia</option>
+                                                    <option value="MV">Maldives</option>
+                                                    <option value="ML">Mali</option>
+                                                    <option value="MT">Malta</option>
+                                                    <option value="MH">Marshall Islands</option>
+                                                    <option value="MQ">Martinique</option>
+                                                    <option value="MR">Mauritania</option>
+                                                    <option value="MU">Mauritius</option>
+                                                    <option value="YT">Mayotte</option>
+                                                    <option value="MX">Mexico</option>
+                                                    <option value="FM">Micronesia, Federated States of</option>
+                                                    <option value="MD">Moldova, Republic of</option>
+                                                    <option value="MC">Monaco</option>
+                                                    <option value="MN">Mongolia</option>
+                                                    <option value="ME">Montenegro</option>
+                                                    <option value="MS">Montserrat</option>
+                                                    <option value="MA">Morocco</option>
+                                                    <option value="MZ">Mozambique</option>
+                                                    <option value="MM">Myanmar</option>
+                                                    <option value="NA">Namibia</option>
+                                                    <option value="NR">Nauru</option>
+                                                    <option value="NP">Nepal</option>
+                                                    <option value="NL">Netherlands</option>
+                                                    <option value="AN">Netherlands Antilles</option>
+                                                    <option value="NC">New Caledonia</option>
+                                                    <option value="NZ">New Zealand</option>
+                                                    <option value="NI">Nicaragua</option>
+                                                    <option value="NE">Niger</option>
+                                                    <option value="NG">Nigeria</option>
+                                                    <option value="NU">Niue</option>
+                                                    <option value="NF">Norfolk Island</option>
+                                                    <option value="MP">Northern Mariana Islands</option>
+                                                    <option value="NO">Norway</option>
+                                                    <option value="OM">Oman</option>
+                                                    <option value="PK">Pakistan</option>
+                                                    <option value="PW">Palau</option>
+                                                    <option value="PS">Palestinian Territory, Occupied</option>
+                                                    <option value="PA">Panama</option>
+                                                    <option value="PG">Papua New Guinea</option>
+                                                    <option value="PY">Paraguay</option>
+                                                    <option value="PE">Peru</option>
+                                                    <option value="PH">Philippines</option>
+                                                    <option value="PN">Pitcairn</option>
+                                                    <option value="PL">Poland</option>
+                                                    <option value="PT">Portugal</option>
+                                                    <option value="PR">Puerto Rico</option>
+                                                    <option value="QA">Qatar</option>
+                                                    <option value="RE">R&eacute;union</option>
+                                                    <option value="RO">Romania</option>
+                                                    <option value="RU">Russian Federation</option>
+                                                    <option value="RW">Rwanda</option>
+                                                    <option value="BL">Saint Barth&eacute;lemy</option>
+                                                    <option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+                                                    <option value="KN">Saint Kitts and Nevis</option>
+                                                    <option value="LC">Saint Lucia</option>
+                                                    <option value="MF">Saint Martin (French part)</option>
+                                                    <option value="PM">Saint Pierre and Miquelon</option>
+                                                    <option value="VC">Saint Vincent and the Grenadines</option>
+                                                    <option value="WS">Samoa</option>
+                                                    <option value="SM">San Marino</option>
+                                                    <option value="ST">Sao Tome and Principe</option>
+                                                    <option value="SA">Saudi Arabia</option>
+                                                    <option value="SN">Senegal</option>
+                                                    <option value="RS">Serbia</option>
+                                                    <option value="SC">Seychelles</option>
+                                                    <option value="SL">Sierra Leone</option>
+                                                    <option value="SG">Singapore</option>
+                                                    <option value="SK">Slovakia</option>
+                                                    <option value="SI">Slovenia</option>
+                                                    <option value="SB">Solomon Islands</option>
+                                                    <option value="SO">Somalia</option>
+                                                    <option value="ZA">South Africa</option>
+                                                    <option value="GS">South Georgia and the South Sandwich Islands</option>
+                                                    <option value="ES">Spain</option>
+                                                    <option value="LK">Sri Lanka</option>
+                                                    <option value="SD">Sudan</option>
+                                                    <option value="SR">Suriname</option>
+                                                    <option value="SJ">Svalbard and Jan Mayen</option>
+                                                    <option value="SZ">Swaziland</option>
+                                                    <option value="SE">Sweden</option>
+                                                    <option value="CH">Switzerland</option>
+                                                    <option value="SY">Syrian Arab Republic</option>
+                                                    <option value="TW">Taiwan, Province of China</option>
+                                                    <option value="TJ">Tajikistan</option>
+                                                    <option value="TZ">Tanzania, United Republic of</option>
+                                                    <option value="TH">Thailand</option>
+                                                    <option value="TL">Timor-Leste</option>
+                                                    <option value="TG">Togo</option>
+                                                    <option value="TK">Tokelau</option>
+                                                    <option value="TO">Tonga</option>
+                                                    <option value="TT">Trinidad and Tobago</option>
+                                                    <option value="TN">Tunisia</option>
+                                                    <option value="TR">Turkey</option>
+                                                    <option value="TM">Turkmenistan</option>
+                                                    <option value="TC">Turks and Caicos Islands</option>
+                                                    <option value="TV">Tuvalu</option>
+                                                    <option value="UG">Uganda</option>
+                                                    <option value="UA">Ukraine</option>
+                                                    <option value="AE">United Arab Emirates</option>
+                                                    <option value="GB">United Kingdom</option>
+                                                    <option value="US">United States</option>
+                                                    <option value="UM">United States Minor Outlying Islands</option>
+                                                    <option value="UY">Uruguay</option>
+                                                    <option value="UZ">Uzbekistan</option>
+                                                    <option value="VU">Vanuatu</option>
+                                                    <option value="VE">Venezuela, Bolivarian Republic of</option>
+                                                    <option value="VN">Viet Nam</option>
+                                                    <option value="VG">Virgin Islands, British</option>
+                                                    <option value="VI">Virgin Islands, U.S.</option>
+                                                    <option value="WF">Wallis and Futuna</option>
+                                                    <option value="EH">Western Sahara</option>
+                                                    <option value="YE">Yemen</option>
+                                                    <option value="ZM">Zambia</option>
+                                                    <option value="ZW">Zimbabwe</option>
+                                                </select>
+                                            </div>
+                                        </div><!--end col-->
+                                        <div class="col-lg-3 mt-3 mt-lg-0">
+                                            <div class="filter-search-form position-relative">
+                                                <i class="uil uil-schedule icons"></i>
+                                                <input name="date" type="text" class="form-control filter-input-box bg-light start" placeholder="Select date">
+                                            </div>
+                                        </div><!--end col-->
+                                        <div class="col-lg-3">
+                                            <div class="mt-3 mt-lg-0">
+                                                <input type="submit" id="search" name="search" style="height: 60px;" class="btn btn-primary searchbtn submit-btn w-100" value="Search">
+                                                <!-- <button class="btn btn-primary submit-btn w-100" style="height: 60px;" type="submit"><i class="uil uil-search me-1"></i> Find Job</button> -->
+                                            </div>
+                                        </div><!--end col-->
+                                    </div><!--end row-->
+                                </div><!--end container-->
+                            </form>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row">
+                    <div class="col-lg-8 col-md-7 col-12">
+                        <div class="row">
+                            <div class="col-lg-6 col-12 mt-4 pt-2">
+                                <div class="card blog border-0 rounded shadow overflow-hidden">
+                                    <div class="position-relative">
+                                        <img src="images/work/14.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body content">
+                                        <h5><a href="javascript:void(0)" class="title text-dark">Private office</a></h5>
+                                        <ul class="list-unstyled my-2 text-warning">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item text-dark">5 Star</li>
+                                        </ul>
+                                        <p class="text-muted">The most well-known dummy text is the have originated in the 16th century.</p>
+                                        <a href="javascript:void(0)" class="link text-dark">Read More <i class="uil uil-arrow-right"></i></a>
+                                        <ul class="list-unstyled d-flex justify-content-between border-top mt-3 pt-3 mb-0">
+                                            <li class="text-muted"><i class="uil uil-user text-primary"></i> 1</li>
+                                            <li class="text-muted ms-3"><i class="uil uil-dollar-sign text-primary"></i> 200 / Mo</li>
+                                        </ul>
+                                    </div>
+                                </div> <!--end card / space-->
+                            </div><!--end col-->
+                            
+                            <div class="col-lg-6 col-12 mt-4 pt-2">
+                                <div class="card blog border-0 rounded shadow overflow-hidden">
+                                    <div class="position-relative">
+                                        <img src="images/work/8.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body content">
+                                        <h5><a href="javascript:void(0)" class="title text-dark">Dedicated Space</a></h5>
+                                        <ul class="list-unstyled my-2 text-warning">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item text-dark">5 Star</li>
+                                        </ul>
+                                        <p class="text-muted">The most well-known dummy text is the have originated in the 16th century.</p>
+                                        <a href="javascript:void(0)" class="link text-dark">Read More <i class="uil uil-arrow-right"></i></a>
+                                        <ul class="list-unstyled d-flex justify-content-between border-top mt-3 pt-3 mb-0">
+                                            <li class="text-muted"><i class="uil uil-user text-primary"></i> 10</li>
+                                            <li class="text-muted ms-3"><i class="uil uil-dollar-sign text-primary"></i> 400 / Mo</li>
+                                        </ul>
+                                    </div>
+                                </div> <!--end card / space-->
+                            </div><!--end col-->
+                            
+                            <div class="col-lg-6 col-12 mt-4 pt-2">
+                                <div class="card blog border-0 rounded shadow overflow-hidden">
+                                    <div class="position-relative">
+                                        <img src="images/work/13.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body content">
+                                        <h5><a href="javascript:void(0)" class="title text-dark">Small office</a></h5>
+                                        <ul class="list-unstyled my-2 text-warning">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item text-dark">5 Star</li>
+                                        </ul>
+                                        <p class="text-muted">The most well-known dummy text is the have originated in the 16th century.</p>
+                                        <a href="javascript:void(0)" class="link text-dark">Read More <i class="uil uil-arrow-right"></i></a>
+                                        <ul class="list-unstyled d-flex justify-content-between border-top mt-3 pt-3 mb-0">
+                                            <li class="text-muted"><i class="uil uil-user text-primary"></i> 5</li>
+                                            <li class="text-muted ms-3"><i class="uil uil-dollar-sign text-primary"></i> 500 / Mo</li>
+                                        </ul>
+                                    </div>
+                                </div> <!--end card / space-->
+                            </div><!--end col-->
+                            
+                            <div class="col-lg-6 col-12 mt-4 pt-2">
+                                <div class="card blog border-0 rounded shadow overflow-hidden">
+                                    <div class="position-relative">
+                                        <img src="images/work/7.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body content">
+                                        <h5><a href="javascript:void(0)" class="title text-dark">Meeting Room</a></h5>
+                                        <ul class="list-unstyled my-2 text-warning">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item text-dark">5 Star</li>
+                                        </ul>
+                                        <p class="text-muted">The most well-known dummy text is the have originated in the 16th century.</p>
+                                        <a href="javascript:void(0)" class="link text-dark">Read More <i class="uil uil-arrow-right"></i></a>
+                                        <ul class="list-unstyled d-flex justify-content-between border-top mt-3 pt-3 mb-0">
+                                            <li class="text-muted"><i class="uil uil-user text-primary"></i> 21</li>
+                                            <li class="text-muted ms-3"><i class="uil uil-dollar-sign text-primary"></i> 800 / day</li>
+                                        </ul>
+                                    </div>
+                                </div> <!--end card / space-->
+                            </div><!--end col-->
+                            
+                            <div class="col-lg-6 col-12 mt-4 pt-2">
+                                <div class="card blog border-0 rounded shadow overflow-hidden">
+                                    <div class="position-relative">
+                                        <img src="images/work/11.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body content">
+                                        <h5><a href="javascript:void(0)" class="title text-dark">Event Room</a></h5>
+                                        <ul class="list-unstyled my-2 text-warning">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item text-dark">5 Star</li>
+                                        </ul>
+                                        <p class="text-muted">The most well-known dummy text is the have originated in the 16th century.</p>
+                                        <a href="javascript:void(0)" class="link text-dark">Read More <i class="uil uil-arrow-right"></i></a>
+                                        <ul class="list-unstyled d-flex justify-content-between border-top mt-3 pt-3 mb-0">
+                                            <li class="text-muted"><i class="uil uil-user text-primary"></i> 50</li>
+                                            <li class="text-muted ms-3"><i class="uil uil-dollar-sign text-primary"></i> 1200 / day</li>
+                                        </ul>
+                                    </div>
+                                </div> <!--end card / space-->
+                            </div><!--end col-->
+                            
+                            <div class="col-lg-6 col-12 mt-4 pt-2">
+                                <div class="card blog border-0 rounded shadow overflow-hidden">
+                                    <div class="position-relative">
+                                        <img src="images/work/12.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body content">
+                                        <h5><a href="javascript:void(0)" class="title text-dark">Startups Desk</a></h5>
+                                        <ul class="list-unstyled my-2 text-warning">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item text-dark">5 Star</li>
+                                        </ul>
+                                        <p class="text-muted">The most well-known dummy text is the have originated in the 16th century.</p>
+                                        <a href="javascript:void(0)" class="link text-dark">Read More <i class="uil uil-arrow-right"></i></a>
+                                        <ul class="list-unstyled d-flex justify-content-between border-top mt-3 pt-3 mb-0">
+                                            <li class="text-muted"><i class="uil uil-user text-primary"></i> 1 / Desk</li>
+                                            <li class="text-muted ms-3"><i class="uil uil-dollar-sign text-primary"></i> 200 / Mo</li>
+                                        </ul>
+                                    </div>
+                                </div> <!--end card / space-->
+                            </div><!--end col-->
+                        </div><!--end row-->
+
+                        <div class="row">
+                            <div class="col-12 mt-4 pt-2">
+                                <ul class="pagination justify-content-center mb-0">
+                                    <li class="page-item"><a class="page-link" href="javascript:void(0)" aria-label="Previous">Previous</a></li>
+                                    <li class="page-item active"><a class="page-link" href="javascript:void(0)">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript:void(0)">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript:void(0)" aria-label="Next">Next</a></li>
+                                </ul>
+                            </div><!--end col-->
+                        </div><!--end row-->
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-5 col-12 mt-4 pt-2">
+                        <div class="sidebar sticky-sidebar">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item rounded">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button border-0 bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                            Your Budget ($)
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse border-0 collapse show" aria-labelledby="headingOne"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body text-muted bg-white">
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text bg-light" id="inputGroupPrepend">$</span>
+                                                <input type="number" class="form-control" min="1" max="1000" placeholder="Enter Amount" id="amount" aria-describedby="inputGroupPrepend" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="accordion-item rounded mt-2">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            People Capacity
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse border-0 collapse" aria-labelledby="headingTwo"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body text-muted bg-white">
+                                            <div class="form-group mb-0">
+                                                <input type="number" min="0" autocomplete="off" id="adult" required="" class="form-control" placeholder="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="accordion-item rounded mt-2">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Space Capacity
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse border-0 collapse" aria-labelledby="headingThree"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body text-muted bg-white">
+                                            <select class="form-select form-control">
+                                                <option selected value="1">Max 15sq.ft.</option>
+                                                <option value="2">20sq.ft. - 40sq.ft.</option>
+                                                <option value="3">50sq.ft. - 80sq.ft.</option>
+                                                <option value="4">100sq.ft. - 200sq.ft.</option>
+                                                <option value="5">350sq.ft.</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="accordion-item rounded mt-2">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            Types of spaces
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse border-0 collapse" aria-labelledby="headingFour"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body text-muted bg-white">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="private-space">
+                                                <label class="form-label" for="private-space">Private Office</label>
+                                            </div>
+    
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="ind-space">
+                                                <label class="form-label" for="ind-space">Individual Space</label>
+                                            </div>
+    
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="meeting-space">
+                                                <label class="form-label" for="meeting-space">Meeting Room</label>
+                                            </div>
+    
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="small-space">
+                                                <label class="form-label" for="small-space">Small Space</label>
+                                            </div>
+    
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="event-space">
+                                                <label class="form-label" for="event-space">Event Room</label>
+                                            </div>
+    
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="startup-space">
+                                                <label class="form-label" for="startup-space">Startup Desk</label>
+                                            </div>
+    
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="kitchen-space">
+                                                <label class="form-label" for="kitchen-space">Kitchen</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="accordion-item rounded mt-2">
+                                    <h2 class="accordion-header" id="headingFive">
+                                        <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                            Ratings
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFive" class="accordion-collapse border-0 collapse" aria-labelledby="headingFive"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body text-muted bg-white">
+                                            <ul class="list-unstyled mb-0">
+                                                <li>
+                                                    <div class="custom-control custom-radio custom-control-inline">
+                                                       <div class="form-check">
+                                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="fivestar">
+                                                            <label class="form-label text-warning" for="fivestar">
+                                                                <span><i class="mdi mdi-star"></i></span>
+                                                                <span><i class="mdi mdi-star"></i></span>
+                                                                <span><i class="mdi mdi-star"></i></span>
+                                                                <span><i class="mdi mdi-star"></i></span>
+                                                                <span><i class="mdi mdi-star"></i></span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </li>
+            
+                                                <li class="mt-2">
+                                                    <div class="custom-control custom-radio custom-control-inline">
+                                                       <div class="form-check">
+                                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="fourstar">
+                                                            <label class="form-label text-warning" for="fourstar">
+                                                                <span><i class="mdi mdi-star"></i></span>
+                                                                <span><i class="mdi mdi-star"></i></span>
+                                                                <span><i class="mdi mdi-star"></i></span>
+                                                                <span><i class="mdi mdi-star"></i></span>
+                                                                <span><i class="mdi mdi-star-outline"></i></span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </li>
+            
+                                                <li class="mt-2">
+                                                    <div class="custom-control custom-radio custom-control-inline">
+                                                       <div class="form-check">
+                                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="threestar">
+                                                            <label class="form-label text-warning" for="threestar">
+                                                                <span><i class="mdi mdi-star"></i></span>
+                                                                <span><i class="mdi mdi-star"></i></span>
+                                                                <span><i class="mdi mdi-star"></i></span>
+                                                                <span><i class="mdi mdi-star-outline"></i></span>
+                                                                <span><i class="mdi mdi-star-outline"></i></span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </li>
+            
+                                                <li class="mt-2">
+                                                    <div class="custom-control custom-radio custom-control-inline">
+                                                       <div class="form-check">
+                                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="twostar">
+                                                            <label class="form-label text-warning" for="twostar">
+                                                                <span><i class="mdi mdi-star"></i></span>
+                                                                <span><i class="mdi mdi-star"></i></span>
+                                                                <span><i class="mdi mdi-star-outline"></i></span>
+                                                                <span><i class="mdi mdi-star-outline"></i></span>
+                                                                <span><i class="mdi mdi-star-outline"></i></span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </li>
+            
+                                                <li class="mt-2">
+                                                    <div class="custom-control custom-radio custom-control-inline">
+                                                       <div class="form-check">
+                                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="onestar">
+                                                            <label class="form-label text-warning" for="onestar">
+                                                                <span><i class="mdi mdi-star"></i></span>
+                                                                <span><i class="mdi mdi-star-outline"></i></span>
+                                                                <span><i class="mdi mdi-star-outline"></i></span>
+                                                                <span><i class="mdi mdi-star-outline"></i></span>
+                                                                <span><i class="mdi mdi-star-outline"></i></span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mt-4">
+                                    <a href="javascript:void(0)" class="btn w-100 btn-soft-primary">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+
+        <!-- Footer Start -->
+        <footer class="bg-footer">    
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-py-100">
+                            <div class="row">
+                                <div class="col-lg-5 col-12 mb-lg-0 mb-md-4 pb-lg-0 pb-md-2">
+                                    <a href="#" class="logo-footer text-white"><img src="images/logo-light.png" class="l-light" height="24" alt=""></a>
+                                    <p class="text-foot mt-4">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                                    <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                                    </ul><!--end icon-->
+                                </div><!--end col-->
+
+                                <div class="col-lg-7 col-12">
+                                    <div class="row">
+                                        <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                                            <h5 class="text-light footer-head">Company</h5>
+                                            <ul class="list-unstyled footer-list mt-4">
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> About us</a></li>
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Services</a></li>
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Pricing</a></li>
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Project</a></li>
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Blog</a></li>
+                                            </ul>
+                                        </div><!--end col-->
+            
+                                        <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                                            <h5 class="text-light footer-head">Support</h5>
+                                            <ul class="list-unstyled footer-list mt-4">
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Help Desk</a></li>
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Live Chat</a></li>
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Knowledge</a></li>
+                                                <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Messaging</a></li>
+                                            </ul>
+                                        </div><!--end col-->
+            
+                                        <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                                            <h5 class="text-light footer-head">Contacts</h5>
+                                            <ul class="list-unstyled footer-list mt-4">
+                                                <li><i data-feather="map-pin" class="fea icon-sm text-foot me-2"></i><a href="#" class="text-foot">Londan, England</a></li>
+                                                <li><i data-feather="mail" class="fea icon-sm text-foot me-2"></i><a href="mailto:contact@example.com" class="text-foot">test@domain.com</a></li>
+                                                <li><i data-feather="phone" class="fea icon-sm text-foot me-2"></i><a href="tel:+152534-468-854" class="text-foot">+(12) 1254-5487</a></li>
+                                            </ul>
+                                        </div><!--end col-->
+                                    </div><!--end row-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="footer-py-30 footer-border-top">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 text-center">
+                            <p class="mb-0 text-foot"><script>document.write(new Date().getFullYear())</script> © Codash. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="https://shreethemes.in/" target="_blank" class="text-reset">Shreethemes</a>.</p>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div>
+        </footer><!--end footer-->
+        <!-- Footer End -->
+
+        <!-- Login Modal start -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header p-4">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Login Now </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body p-4">
+                        <form class="login-form">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label class="form-label">Your Email <span class="text-danger">*</span></label>
+                                        <input type="email" class="form-control"  name="email" required="" placeholder="Your Email :">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label class="form-label">Password <span class="text-danger">*</span></label>
+                                        <input type="password" class="form-control"  required="" placeholder="Password :">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Remember Me
+                                            </label>
+                                        </div>
+                                        <p class="forgot-pass mb-0"><a href="page-reset-password.html" class="text-dark fw-bold">Forgot password ?</a></p>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100">Create Account</button>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <p class="mb-0 mt-3"><small class="text-dark me-2">Already have an account ?</small> <a href="page-login.html" class="text-dark fw-bold">Sign in</a></p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div><!--end modal-->
+        <!-- Login Modal end -->
+
+        <!-- Back to top -->
+        <a href="#" class="btn btn-icon btn-primary back-to-top" onclick="topFunction()" id="back-to-top"><i data-feather="arrow-up" class="icons"></i></a>
+        <!-- Back to top -->
+        
+        <!-- javascript -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- Choice js -->
+        <script src="js/choices.min.js"></script>
+        <!-- Datepicker -->
+        <script src="js/datepicker.min.js"></script>
+        <!-- Icon -->
+        <script src="js/feather.min.js"></script>
+        <!-- Main Js -->
+        <script src="js/plugins.init.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
